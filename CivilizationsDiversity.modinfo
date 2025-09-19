@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="32936394-6ae7-4e19-929d-fa47ebc7d055" version="2.0">
+	<Properties>
+	<Name>LOC_CIVILIZATIONS_DIVERSITY_NAME</Name>
+	<Description>New Civilizations and Leaders</Description>
+	<Teaser>Civilizations Diversity</Teaser>
+	<Authors>六亿神州尽舜尧, 小灰灰, 笑笑, 先驱</Authors>
+	<SpecialThanks>Deeplogic, sukritact, SeelingCat, chimp, Gedemo, Merrick, Leugi</SpecialThanks>
+	<AffectsSavedGames>1</AffectsSavedGames>
+	<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+	<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+	<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	<Mod id="521b8777-0977-4859-a5ee-3e411a732e5c" title="Civ6 Plus: Harmony in Diversity" />
+	</Dependencies>
+	<LocalizedText>
+	<Text id="LOC_CIVILIZATIONS_DIVERSITY_NAME">
+		<en_US>[COLOR_Civ6LightBlue]Harmony in Diversity v2.0: Civilizations and Leaders[ENDCOLOR]</en_US>
+		<zh_Hans_CN>[COLOR_Civ6LightBlue]【和而不同 v2.0】文明和领袖[ENDCOLOR]</zh_Hans_CN>
+	</Text>
+	</LocalizedText>
+	<ActionCriteria>
+	<Criteria id="Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+	</Criteria>
+	<Criteria id="STUU_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModInUse>
+	</Criteria>
+	<Criteria id="China_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+	</Criteria>
+	<Criteria id="Iceland_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>b7e6d8a8-4d36-42d8-8523-9e4e828f45ad</ModInUse>
+	</Criteria>
+	<Criteria id="Hittites_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>1c757aea-0da4-4934-8520-96a59f6157b9</ModInUse>
+	</Criteria>
+	<Criteria id="Pacal_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>5c5ed34e-f66b-41e4-aa7b-4546b298f2a0</ModInUse>
+	</Criteria>
+	<Criteria id="Assyria_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>b2a21d80-eee9-41da-87c0-c09e9ff78458</ModInUse>
+	</Criteria>
+	<Criteria id="Babylon_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+	</Criteria>
+	<Criteria id="Bulgaria_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>1684ab00-5795-49be-b200-82d1e1f2df9e</ModInUse>
+	</Criteria>
+	<Criteria id="Romania_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>b77c610e-e9f8-4373-8e54-16db48639ae4</ModInUse>
+		<ModInUse>3e43d019-c7e2-4cfd-8694-e18caa0a2018</ModInUse>
+	</Criteria>
+	<Criteria id="Charlemagne_France_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>d3cbeba5-2100-475d-8c47-74573c80d406</ModInUse>
+	</Criteria>
+	<Criteria id="Charlemagne_Germany_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>ff430ab5-54c1-4dae-8f94-6d4c55cfefa5</ModInUse>
+	</Criteria>
+	<Criteria id="Siam_Ramkhamhaeng_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>87d7a272-36b8-4339-a1f1-42334559808d</ModInUse>
+	</Criteria>
+	<Criteria id="Siam_Chulalongkorn_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>bd44cfa2-b70d-4099-b584-7ceb089249d2</ModInUse>
+	</Criteria>
+	<Criteria id="Siam_Narai_Expansion2_Ethiopia">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>e6f25862-9c65-4cba-bff9-1298e2040a01</ModInUse>
+		<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+	</Criteria>
+	<Criteria id="Zimbabwe_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
+	</Criteria>
+	<Criteria id="Zimbabwe_Monopoly_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
+		<ModInUse>b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>
+	</Criteria>
+	<Criteria id="Zimbabwe_Savannah_Expansion2">
+        <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+        <ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
+    	<ModInUse>1ec10c1f-677c-4af8-be22-e7df2f4de858</ModInUse>
+    </Criteria>
+	<Criteria id="Berbers_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>ba7d3560-2e89-4f92-960a-b6171ce51926</ModInUse>
+		<ModInUse>d2d63e78-9c11-4d82-a943-ac7c49dcc909</ModInUse>
+	</Criteria>
+	<Criteria id="Armenia_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>e60d9e7a-9ae9-4a43-8b00-8cfa98c997e2</ModInUse>
+		<ModInUse>abad1465-366d-4c8c-9705-e9cfc6df720f</ModInUse>
+	</Criteria>
+	<Criteria id="Swahili_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>9c73d5f9-82a0-4da6-8071-10db495978c2</ModInUse>
+	</Criteria>
+	<Criteria id="Malaysia_Tun_Perak_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>3f642506-f163-4bc2-bc16-f3b5f4307043</ModInUse>
+		<ModInUse>f4959c6e-9181-4a16-aebc-20690fb07cb9</ModInUse>
+	</Criteria>
+	<Criteria id="Malaysia_Iskandar_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>0090ae17-861b-4926-bf3d-23995a1efe39</ModInUse>
+		<ModInUse>f4959c6e-9181-4a16-aebc-20690fb07cb9</ModInUse>
+	</Criteria>
+	<Criteria id="Malaysia_Expansion2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>f4959c6e-9181-4a16-aebc-20690fb07cb9</ModInUse>
+	</Criteria>
+	<Criteria id="CIVITAS_Masinissa_XP2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>4b8a9503-6be5-481a-a446-a029e750f41e</ModInUse>
+		<ModInUse>ba7d3560-2e89-4f92-960a-b6171ce51926</ModInUse>
+	</Criteria>
+	<Criteria id="CIVITAS_Songhai_XP2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>5617c3dd-0026-41f8-8f91-75178c3f9a15</ModInUse>
+	</Criteria>
+	<Criteria id="CIVITAS_Songhai_Sonni_Ali_XP2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>5617c3dd-0026-41f8-8f91-75178c3f9a15</ModInUse>
+		<ModInUse>9b7d21c2-b042-44bf-b19b-739be98c313f</ModInUse>
+	</Criteria>
+	<Criteria id="CIVITAS_Songhai_Askiya_XP2">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>5617c3dd-0026-41f8-8f91-75178c3f9a15</ModInUse>
+		<ModInUse>0c93f211-2f1f-45a1-826c-4ebce3d0683b</ModInUse>
+	</Criteria>
+	<Criteria id="CIVITAS_Songhai_XP2_UB">
+		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+		<ModInUse>5617c3dd-0026-41f8-8f91-75178c3f9a15</ModInUse>
+		<ModInUse>7d1c74a2-2f3e-452c-8d3e-16b6e383ab9d</ModInUse>
+	</Criteria>
+	</ActionCriteria>
+	<FrontEndActions>
+		<!-- ZhuDi -->
+		<UpdateText id="CivilizationsDiversity_China_Text">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/China_Expansion_Text.sql</File>
+		</UpdateText>
+		<UpdateDatabase id="CivilizationsDiversity_PlayerItems">
+		  <Properties><LoadOrder>16004</LoadOrder></Properties>
+		  <File>UpdateDatabase/PlayerItems.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="CivilizationsDiversity_FrontEndText_Old">
+			<Properties><LoadOrder>16004</LoadOrder></Properties>
+			<File>Text/Text_Old.sql</File>
+		</UpdateText>
+		<UpdateText id="CivilizationsDiversity_FrontEndText">
+			<Properties><LoadOrder>16105</LoadOrder></Properties>
+			<File>Text/GameplayText.sql</File>
+			<File>Text/DiplomacyText.sql</File>
+			<File>Text/IcelandText.sql</File>
+		</UpdateText>
+		<UpdateText id="CivilizationsDiversity_Zimbabwe_Savannah_Text">
+			<Properties><LoadOrder>17000</LoadOrder></Properties>
+			<File>Text/Zimbabwe_Savannah_Text.sql</File>
+		</UpdateText>
+		<UpdateColors id="CivilizationsDiversity_FrontEndColors">
+			<File>UpdateDatabase/Colors.sql</File>
+		</UpdateColors>
+		<ImportFiles id="CivilizationsDiversity_FrontEndAssets">
+			<Properties><LoadOrder>16004</LoadOrder></Properties>
+			<File>Assets/CIVILIZATION_HATTUSA_22.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_30.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_36.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_44.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_45.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_48.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_50.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_64.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_80.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_256.dds</File>
+			<File>Assets/kisir_sarruti_22.dds</File>
+			<File>Assets/kisir_sarruti_32.dds</File>
+			<File>Assets/kisir_sarruti_38.dds</File>
+			<File>Assets/kisir_sarruti_50.dds</File>
+			<File>Assets/kisir_sarruti_80.dds</File>
+			<File>Assets/kisir_sarruti_256.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_32.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_45.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_50.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_55.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_64.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_80.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_256.dds</File>
+			<File>Assets/NEBUCHADNEZZAR_II_FOREGROUND.dds</File>
+			<File>Assets/LEADER_ZHUDI_32.dds</File>
+			<File>Assets/LEADER_ZHUDI_50.dds</File>
+			<File>Assets/LEADER_ZHUDI_55.dds</File>
+			<File>Assets/LEADER_ZHUDI_64.dds</File>
+			<File>Assets/LEADER_ZHUDI_80.dds</File>
+			<File>Assets/LEADER_ZHUDI_256.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_32.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_50.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_55.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_64.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_80.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_256.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_22.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_32.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_38.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_50.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_80.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_256.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_22.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_30.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_36.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_44.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_45.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_48.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_50.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_64.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_80.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_256.dds</File>
+			<File>Assets/CharlemagneProjects_30.dds</File>
+			<File>Assets/CharlemagneProjects_32.dds</File>
+			<File>Assets/CharlemagneProjects_38.dds</File>
+			<File>Assets/CharlemagneProjects_50.dds</File>
+			<File>Assets/CharlemagneProjects_70.dds</File>
+			<File>Assets/CharlemagneProjects_80.dds</File>
+			<File>Assets/CharlemagneProjects_256.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_22.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_32.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_38.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_50.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_80.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_256.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_22.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_32.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_38.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_50.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_80.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_256.dds</File>
+			<File>Assets/ZIMBABWE_COPY_22.dds</File>
+			<File>Assets/ZIMBABWE_COPY_32.dds</File>
+			<File>Assets/ZIMBABWE_COPY_38.dds</File>
+			<File>Assets/ZIMBABWE_COPY_50.dds</File>
+			<File>Assets/ZIMBABWE_COPY_80.dds</File>
+			<File>Assets/ZIMBABWE_COPY_256.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_22.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_32.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_38.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_50.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_80.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_256.dds</File>
+		</ImportFiles>
+		<UpdateIcons id="CivilizationsDiversity_FrontEndIcons">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Icons/Icons.xml</File>
+			<File>Icons/Icons.sql</File>
+		</UpdateIcons>
+
+		<UpdateText id="CVS Masinissa_SetupText">
+			<Properties><LoadOrder>16200</LoadOrder></Properties>
+			<File>Text/Masinissa_Text.sql</File>
+		</UpdateText>
+		<UpdateText id="CVS_Songhai_FrontText">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/SonghaiText.sql</File>
+		</UpdateText>
+	</FrontEndActions>
+	<InGameActions>
+		<!-- Text -->
+		<UpdateText id="CivilizationsDiversity_Text_Old" criteria="Expansion2">
+			<Properties><LoadOrder>16004</LoadOrder></Properties>
+			<File>Text/Text_Old.sql</File>
+		</UpdateText>
+		<UpdateText id="CivilizationsDiversity_Text" criteria="Expansion2">
+			<Properties><LoadOrder>16105</LoadOrder></Properties>
+			<File>Text/GameplayText.sql</File>
+			<File>Text/DiplomacyText.sql</File>
+		</UpdateText>
+		<!-- Icons -->
+		<ImportFiles id="CivilizationsDiversity_Assets" criteria="Expansion2">
+			<Properties><LoadOrder>16004</LoadOrder></Properties>
+			<File>Assets/CIVILIZATION_HATTUSA_22.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_30.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_36.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_44.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_45.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_48.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_50.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_64.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_80.dds</File>
+			<File>Assets/CIVILIZATION_HATTUSA_256.dds</File>
+			<File>Assets/kisir_sarruti_22.dds</File>
+			<File>Assets/kisir_sarruti_32.dds</File>
+			<File>Assets/kisir_sarruti_38.dds</File>
+			<File>Assets/kisir_sarruti_50.dds</File>
+			<File>Assets/kisir_sarruti_80.dds</File>
+			<File>Assets/kisir_sarruti_256.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_32.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_45.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_50.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_55.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_64.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_80.dds</File>
+			<File>Assets/LEADER_NEBUCHADNEZZAR_256.dds</File>
+			<File>Assets/NEBUCHADNEZZAR_II_FOREGROUND.dds</File>
+			<File>Assets/LEADER_ZHUDI_32.dds</File>
+			<File>Assets/LEADER_ZHUDI_50.dds</File>
+			<File>Assets/LEADER_ZHUDI_55.dds</File>
+			<File>Assets/LEADER_ZHUDI_64.dds</File>
+			<File>Assets/LEADER_ZHUDI_80.dds</File>
+			<File>Assets/LEADER_ZHUDI_256.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_32.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_50.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_55.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_64.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_80.dds</File>
+			<File>Assets/HD_WU_ZETIAN_ALT_256.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_22.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_32.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_38.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_50.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_80.dds</File>
+			<File>Assets/UNIT_BULGARIA_KONIKK_256.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_22.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_32.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_38.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_50.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_80.dds</File>
+			<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_256.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_22.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_32.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_38.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_50.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_80.dds</File>
+			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_256.dds</File>
+			<File>Assets/ZIMBABWE_COPY_22.dds</File>
+			<File>Assets/ZIMBABWE_COPY_32.dds</File>
+			<File>Assets/ZIMBABWE_COPY_38.dds</File>
+			<File>Assets/ZIMBABWE_COPY_50.dds</File>
+			<File>Assets/ZIMBABWE_COPY_80.dds</File>
+			<File>Assets/ZIMBABWE_COPY_256.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_22.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_32.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_38.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_50.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_80.dds</File>
+			<File>Assets/ZIMBABWE_PLANT_256.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_22.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_30.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_36.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_44.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_45.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_48.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_50.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_64.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_80.dds</File>
+			<File>Assets/CIVILIZATION_GALATIA_256.dds</File>
+			<File>Assets/CharlemagneProjects_30.dds</File>
+			<File>Assets/CharlemagneProjects_32.dds</File>
+			<File>Assets/CharlemagneProjects_38.dds</File>
+			<File>Assets/CharlemagneProjects_50.dds</File>
+			<File>Assets/CharlemagneProjects_70.dds</File>
+			<File>Assets/CharlemagneProjects_80.dds</File>
+			<File>Assets/CharlemagneProjects_256.dds</File>
+		</ImportFiles>
+		<UpdateIcons id="CivilizationsDiversity_Icons" criteria="Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Icons/Icons.xml</File>
+			<File>Icons/Icons.sql</File>
+		</UpdateIcons>
+		<UpdateArt id="CivilizationsDiversity_Art">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>CivilizationsDiversity.dep</File>
+		</UpdateArt>
+		<UpdateColors id="CivilizationsDiversity_Colors">
+			<File>UpdateDatabase/Colors.sql</File>
+		</UpdateColors>
+		<!-- ZhuDi -->
+		<UpdateText id="CivilizationsDiversity_China_Text" criteria="China_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/China_Expansion_Text.sql</File>
+			<File>Text/China_Expansion_Text.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="CivilizationsDiversity_ZhuDi_Early_Database" criteria="China_Expansion2">
+			<Properties><LoadOrder>10000</LoadOrder></Properties>
+			<File>UpdateDatabase/China_Expansion/ZhuDi_Early.sql</File>
+			<File>UpdateDatabase/China_Expansion/WuZeTian_Early.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_ZhuDi_Database" criteria="China_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/China_Expansion/ZhuDi.sql</File>
+			<File>UpdateDatabase/China_Expansion/WuZeTian.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_ZhuDi_Lua" criteria="China_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/ZhuDi.lua</File>
+			<File>Lua/WuZeTian.lua</File>
+		</AddGameplayScripts>
+		<!-- Iceland -->
+		<UpdateText id="CivilizationsDiversity_Iceland_Text" criteria="Iceland_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/IcelandText.sql</File>
+		</UpdateText>
+		<UpdateDatabase id="CivilizationsDiversity_Iceland_Database" criteria="Iceland_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Iceland.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Iceland_Lua" criteria="Iceland_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Iceland.lua</File>
+		</AddGameplayScripts>
+		<!-- Hittites -->
+		<UpdateDatabase id="CivilizationsDiversity_Hittites_Database" criteria="Hittites_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Hittites.sql</File>
+		</UpdateDatabase>
+		<UpdateIcons id="CivilizationsDiversity_Hittites_Icons" criteria="Hittites_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Icons/Hittites.xml</File>
+		</UpdateIcons>
+		<UpdateText id="CivilizationsDiversity_Hittites_Text" criteria="Hittites_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/HittitesText.sql</File>
+		</UpdateText>
+		<!-- Pacal (Maya) -->
+		<UpdateDatabase id="CivilizationsDiversity_Pacal_Database" criteria="Pacal_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Pacal.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Pacal_Database" criteria="Pacal_Expansion2">
+			<Properties><LoadOrder>20000</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Pacal_Late.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Pacal_LuaGameplay" criteria="Pacal_Expansion2">
+			<Properties><LoadOrder>16006</LoadOrder></Properties>
+			<File>Lua/PacalGameplay.lua</File>
+		</AddGameplayScripts>
+		<!-- Assyria -->
+		<UpdateDatabase id="CivilizationsDiversity_Assyria_Database" criteria="Assyria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Assyria.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Assyria_Database_Late" criteria="Assyria_Expansion2">
+			<Properties><LoadOrder>16015</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Assyria_Late.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Assyria_Lua" criteria="Assyria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Assyria.lua</File>
+		</AddGameplayScripts>
+		<!-- Nebuchadnezzar -->
+		<UpdateDatabase id="CivilizationsDiversity_Nebuchadnezzar_Database" criteria="Babylon_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Nebuchadnezzar.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Nebuchadnezzar_Lua" criteria="Babylon_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Nebuchadnezzar.lua</File>
+		</AddGameplayScripts>
+		<!-- Bulgaria -->
+		<UpdateDatabase id="CivilizationsDiversity_Bulgaria_Database_Early" criteria="Bulgaria_Expansion2">
+			<Properties><LoadOrder>12005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Bulgaria_Early.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Bulgaria_Database" criteria="Bulgaria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Bulgaria.sql</File>
+		</UpdateDatabase>
+		<UpdateIcons id="CivilizationsDiversity_Bulgaria_Icons" criteria="Bulgaria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Icons/Bulgaria.xml</File>
+		</UpdateIcons>
+		<AddGameplayScripts id="CivilizationsDiversity_Bulgaria_Lua" criteria="Bulgaria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Bulgaria.lua</File>
+		</AddGameplayScripts>
+		<UpdateText id="CivilizationsDiversity_Bulgaria_Text" criteria="Bulgaria_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/BulgariaText.sql</File>
+		</UpdateText>
+		<!-- Romania -->
+		<UpdateDatabase id="CivilizationsDiversity_Romania_Database" criteria="Romania_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Romania.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Romania_LuaGameplay" criteria="Romania_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/RomaniaGameplay.lua</File>
+		</AddGameplayScripts>
+		<ImportFiles id="CivilizationsDiversity_Romania_Lua" criteria="Romania_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Romania.lua</File>
+		</ImportFiles>
+		<AddUserInterfaces id="CivilizationsDiversity_Romania_Interface" criteria="Romania_Expansion2">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>16006</LoadOrder>
+			</Properties>
+			<File>Lua/Romania.xml</File>
+		</AddUserInterfaces>
+		<!-- Charlemagne -->
+		<UpdateDatabase id="CivilizationsDiversity_Charlemagne_France_Database" criteria="Charlemagne_France_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Charlemagne.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Charlemagne_France_Lua" criteria="Charlemagne_France_Expansion2">
+			<Properties><LoadOrder>16006</LoadOrder></Properties>
+			<File>Lua/Charlemagne.lua</File>
+		</AddGameplayScripts>
+		<UpdateDatabase id="CivilizationsDiversity_Charlemagne_Germany_Database" criteria="Charlemagne_Germany_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Charlemagne.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Charlemagne_France_Lua" criteria="Charlemagne_Germany_Expansion2">
+			<Properties><LoadOrder>16006</LoadOrder></Properties>
+			<File>Lua/Charlemagne.lua</File>
+		</AddGameplayScripts>
+		<!-- Siam -->
+		<UpdateDatabase id="CivilizationsDiversity_Siam_Database" criteria="Siam_Ramkhamhaeng_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Siam.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Siam_Database_Late" criteria="Siam_Ramkhamhaeng_Expansion2">
+			<Properties><LoadOrder>18005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Siam_Late.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Siam_Chulalongkorn_Database" criteria="Siam_Chulalongkorn_Expansion2">
+			<Properties><LoadOrder>16000</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Siam_Suk_Chulalongkorn.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Siam_Chulalongkorn_Database" criteria="Siam_Chulalongkorn_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Siam_Chulalongkorn.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Siam_Chulalongkorn_Lua" criteria="Siam_Chulalongkorn_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Siam_Chulalongkorn.lua</File>
+		</AddGameplayScripts>
+		<AddGameplayScripts id="CivilizationsDiversity_Siam_Chulalongkorn_Lua_Replace" criteria="Siam_Ramkhamhaeng_Expansion2">
+      <Properties><LoadOrder>16005</LoadOrder></Properties>
+      <File>Lua/Suk_SiamRamkhamhaeng_CoreFunctions.lua</File>
+    </AddGameplayScripts>
+		<AddGameplayScripts id="CivilizationsDiversity_Siam_Lua_Replace" criteria="Siam_Narai_Expansion2_Ethiopia">
+      <Properties><LoadOrder>16005</LoadOrder></Properties>
+      <File>Lua/Siam_Narai.lua</File>
+    </AddGameplayScripts>
+		<UpdateDatabase id="CivilizationsDiversity_Siam_Narai_Database" criteria="Siam_Narai_Expansion2_Ethiopia">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Siam_Narai.sql</File>
+		</UpdateDatabase>
+		<!-- Zimbabwe -->
+		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Database" criteria="Zimbabwe_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Zimbabwe.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Monopoly_Database" criteria="Zimbabwe_Monopoly_Expansion2">
+			<Properties><LoadOrder>20005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Zimbabwe_Monopoly.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Savannah_Database" criteria="Zimbabwe_Savannah_Expansion2">
+			<Properties><LoadOrder>30000</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Zimbabwe_Savannah.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="CivilizationsDiversity_Zimbabwe_Savannah_Text" criteria="Zimbabwe_Savannah_Expansion2">
+			<Properties><LoadOrder>17000</LoadOrder></Properties>
+			<File>Text/Zimbabwe_Savannah_Text.sql</File>
+		</UpdateText>
+		<!-- Berbers -->
+		<UpdateDatabase id="CivilizationsDiversity_Berbers_Database" criteria="Berbers_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Berbers.sql</File>
+		</UpdateDatabase>
+		<!-- Armenia -->
+		<UpdateDatabase id="CivilizationsDiversity_Armenia_Database" criteria="Armenia_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Armenia.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Armenia_Lua" criteria="Armenia_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Armenia.lua</File>
+		</AddGameplayScripts>
+		<!-- Swahili -->
+		<UpdateDatabase id="CivilizationsDiversity_Swahili_Database" criteria="Swahili_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Swahili.sql</File>
+		</UpdateDatabase>
+		<!-- Ottoman -->
+		<UpdateDatabase id="CivilizationsDiversity_Ottoman_Database" criteria="Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Ottoman.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Ottoman_LuaGameplay" criteria="Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/OttomanGameplay.lua</File>
+		</AddGameplayScripts>
+		<ImportFiles id="CivilizationsDiversity_Ottoman_Lua" criteria="Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Ottoman.lua</File>
+		</ImportFiles>
+		<AddUserInterfaces id="CivilizationsDiversity_Ottoman_Interface" criteria="Expansion2">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>16006</LoadOrder>
+			</Properties>
+			<File>Lua/Ottoman.xml</File>
+		</AddUserInterfaces>
+		<!-- Malaysia -->
+		<UpdateDatabase id="CivilizationsDiversity_Malaysia_Tun_Perak_Database" criteria="Malaysia_Tun_Perak_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Malaysia.sql</File>
+			<File>UpdateDatabase/Civilizations/Malaysia_Tun_Perak.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CivilizationsDiversity_Malaysia_Iskandar_Database" criteria="Malaysia_Iskandar_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Malaysia.sql</File>
+			<File>UpdateDatabase/Civilizations/Malaysia_Iskandar.sql</File>
+		</UpdateDatabase>
+		<AddGameplayScripts id="CivilizationsDiversity_Malaysia_Lua" criteria="Malaysia_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Malaysia.lua</File>
+		</AddGameplayScripts>
+		<ImportFiles id="Malaysia_Scripts">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Malaysia_Scripts.lua</File>
+		</ImportFiles>
+
+			<!--CIVITAS Masinissa-->
+		<UpdateDatabase id="Masinissa_UAShare" criteria="CIVITAS_Masinissa_XP2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Masinissa.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="CVS Masinissa_Text" criteria="CIVITAS_Masinissa_XP2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Text/Masinissa_Text.sql</File>
+		</UpdateText>
+		<AddGameplayScripts id="CVS Masinissa_Script" criteria="CIVITAS_Masinissa_XP2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Masinissa.lua</File>
+		</AddGameplayScripts>
+			<!--CIVITAS Songhai-->
+		<UpdateDatabase id="CVS_Songhai" criteria="CIVITAS_Songhai_XP2">
+			<Properties><LoadOrder>16015</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Songhai.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CVS_Songhai_Sonni_Ali" criteria="CIVITAS_Songhai_Sonni_Ali_XP2">
+			<Properties><LoadOrder>16015</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Songhai_Sonni_Ali.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CVS_Songhai_Askiya" criteria="CIVITAS_Songhai_Askiya_XP2">
+			<Properties><LoadOrder>16015</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Songhai_Askiya.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CVS_Songhai_UB" criteria="CIVITAS_Songhai_XP2_UB">
+			<Properties><LoadOrder>18015</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Songhai_UB.sql</File>
+		</UpdateDatabase>
+		<UpdateText id="CVS_Songhai_Text" criteria="CIVITAS_Songhai_XP2">
+			<Properties><LoadOrder>16020</LoadOrder></Properties>
+			<File>Text/SonghaiText.sql</File>
+		</UpdateText>
+		<ImportFiles id="CVS_Songhai_Lua" criteria="CIVITAS_Songhai_XP2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Songhai.lua</File>
+		</ImportFiles>
+		<AddUserInterfaces id="CVS_Songhai_Lua_Interface" criteria="CIVITAS_Songhai_XP2">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>16006</LoadOrder>
+			</Properties>
+			<File>Lua/Songhai.xml</File>
+		</AddUserInterfaces>
+		<AddGameplayScripts id="CVS_Songhai_LuaGameplay" criteria="CIVITAS_Songhai_XP2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/SonghaiGameplay.lua</File>
+		</AddGameplayScripts>
+	</InGameActions>
+	<Files>
+		<File>Text/China_Expansion_Text.sql</File>
+		<File>Text/China_Expansion_Text.xml</File>
+		<File>UpdateDatabase/China_Expansion/ZhuDi_Early.sql</File>
+		<File>UpdateDatabase/China_Expansion/ZhuDi.sql</File>
+		<File>Lua/ZhuDi.lua</File>
+		<File>UpdateDatabase/China_Expansion/WuZeTian_Early.sql</File>
+		<File>UpdateDatabase/China_Expansion/WuZeTian.sql</File>
+		<File>Lua/WuZeTian.lua</File>
+		<!-- Icons -->
+		<File>Assets/CIVILIZATION_HATTUSA_22.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_30.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_36.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_44.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_45.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_48.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_50.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_64.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_80.dds</File>
+		<File>Assets/CIVILIZATION_HATTUSA_256.dds</File>
+		<File>Assets/kisir_sarruti_22.dds</File>
+		<File>Assets/kisir_sarruti_32.dds</File>
+		<File>Assets/kisir_sarruti_38.dds</File>
+		<File>Assets/kisir_sarruti_50.dds</File>
+		<File>Assets/kisir_sarruti_80.dds</File>
+		<File>Assets/kisir_sarruti_256.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_32.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_45.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_50.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_55.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_64.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_80.dds</File>
+		<File>Assets/LEADER_NEBUCHADNEZZAR_256.dds</File>
+		<File>Assets/NEBUCHADNEZZAR_II_FOREGROUND.dds</File>
+		<File>Assets/LEADER_ZHUDI_32.dds</File>
+		<File>Assets/LEADER_ZHUDI_50.dds</File>
+		<File>Assets/LEADER_ZHUDI_55.dds</File>
+		<File>Assets/LEADER_ZHUDI_64.dds</File>
+		<File>Assets/LEADER_ZHUDI_80.dds</File>
+		<File>Assets/LEADER_ZHUDI_256.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_32.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_50.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_55.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_64.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_80.dds</File>
+		<File>Assets/HD_WU_ZETIAN_ALT_256.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_22.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_32.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_38.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_50.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_80.dds</File>
+		<File>Assets/UNIT_BULGARIA_KONIKK_256.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_22.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_32.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_38.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_50.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_80.dds</File>
+		<File>Assets/SIAMESE_EXPEDITIONARY_FORCES_256.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_22.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_32.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_38.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_50.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_80.dds</File>
+		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_256.dds</File>
+		<File>Assets/ZIMBABWE_COPY_22.dds</File>
+		<File>Assets/ZIMBABWE_COPY_32.dds</File>
+		<File>Assets/ZIMBABWE_COPY_38.dds</File>
+		<File>Assets/ZIMBABWE_COPY_50.dds</File>
+		<File>Assets/ZIMBABWE_COPY_80.dds</File>
+		<File>Assets/ZIMBABWE_COPY_256.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_22.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_32.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_38.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_50.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_80.dds</File>
+		<File>Assets/ZIMBABWE_PLANT_256.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_22.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_30.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_36.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_44.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_45.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_48.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_50.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_64.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_80.dds</File>
+		<File>Assets/CIVILIZATION_GALATIA_256.dds</File>
+		<File>Assets/CharlemagneProjects_30.dds</File>
+		<File>Assets/CharlemagneProjects_32.dds</File>
+		<File>Assets/CharlemagneProjects_38.dds</File>
+		<File>Assets/CharlemagneProjects_50.dds</File>
+		<File>Assets/CharlemagneProjects_70.dds</File>
+		<File>Assets/CharlemagneProjects_80.dds</File>
+		<File>Assets/CharlemagneProjects_256.dds</File>
+		<File>Icons/Icons.xml</File>
+		<File>Icons/Icons.sql</File>
+		<!-- Art -->
+		<File>CivilizationsDiversity.dep</File>
+		<File>Artdefs/Leaders.artdef</File>
+		<File>Artdefs/FallbackLeaders.artdef</File>
+		<File>Artdefs/Units.artdef</File>
+		<File>Platforms/MacOS/BLPs/LeaderFallbackImages.blp</File>
+		<File>Platforms/Windows/BLPs/LeaderFallbackImages.blp</File>
+		<File>UpdateDatabase/Colors.sql</File>
+		<!-- Frontend -->
+		<File>UpdateDatabase/PlayerItems.sql</File>
+		<File>Text/Text_Old.sql</File>
+		<File>Text/GameplayText.sql</File>
+		<File>Text/DiplomacyText.sql</File>
+		<!-- Iceland -->
+		<File>Text/IcelandText.sql</File>
+		<File>Lua/Iceland.lua</File>
+		<File>UpdateDatabase/Civilizations/Iceland.sql</File>	
+		<!-- Hittites -->
+		<File>UpdateDatabase/Civilizations/Hittites.sql</File>
+		<File>Icons/Hittites.xml</File>
+		<File>Text/HittitesText.sql</File>
+		<!-- Pacal (Maya) -->
+		<File>UpdateDatabase/Civilizations/Pacal.sql</File>
+		<File>UpdateDatabase/Civilizations/Pacal_Late.sql</File>
+		<File>Lua/PacalGameplay.lua</File>
+		<!-- Assyria -->
+		<File>UpdateDatabase/Civilizations/Assyria.sql</File>
+		<File>UpdateDatabase/Civilizations/Assyria_Late.sql</File>
+		<File>Lua/Assyria.lua</File>
+		<!-- Nebuchadnezzar -->
+		<File>UpdateDatabase/Civilizations/Nebuchadnezzar.sql</File>
+		<File>Lua/Nebuchadnezzar.lua</File>
+		<!-- Bulgaria -->
+		<File>UpdateDatabase/Civilizations/Bulgaria_Early.sql</File>
+		<File>UpdateDatabase/Civilizations/Bulgaria.sql</File>
+		<File>Icons/Bulgaria.xml</File>
+		<File>Lua/Bulgaria.lua</File>
+		<File>Text/BulgariaText.sql</File>
+		<!-- Romania -->
+		<File>UpdateDatabase/Civilizations/Romania.sql</File>
+		<File>Lua/RomaniaGameplay.lua</File>
+		<File>Lua/Romania.lua</File>
+		<File>Lua/Romania.xml</File>
+		<!-- Charlemagne -->
+		<File>UpdateDatabase/Civilizations/Charlemagne.sql</File>
+		<File>Lua/Charlemagne.lua</File>
+		<!-- Siam -->
+		<File>UpdateDatabase/Civilizations/Siam.sql</File>
+		<File>UpdateDatabase/Civilizations/Siam_Late.sql</File>
+		<File>UpdateDatabase/Civilizations/Siam_Suk_Chulalongkorn.sql</File>
+		<File>UpdateDatabase/Civilizations/Siam_Chulalongkorn.sql</File>
+		<File>Lua/Siam_Chulalongkorn.lua</File>
+		<File>UpdateDatabase/Civilizations/Siam_Narai.sql</File>
+		<File>Lua/Suk_SiamRamkhamhaeng_CoreFunctions.lua</File>
+		<File>Lua/Siam_Narai.lua</File>
+		<!-- Zimbabwe -->
+		<File>UpdateDatabase/Civilizations/Zimbabwe.sql</File>
+		<File>UpdateDatabase/Civilizations/Zimbabwe_Monopoly.sql</File>
+		<File>UpdateDatabase/Civilizations/Zimbabwe_Savannah.sql</File>
+		<File>Text/Zimbabwe_Savannah_Text.sql</File>
+		<!-- Berbers -->
+		<File>UpdateDatabase/Civilizations/Berbers.sql</File>
+		<!-- Armenia -->
+		<File>UpdateDatabase/Civilizations/Armenia.sql</File>
+		<File>Lua/Armenia.lua</File>
+		<!-- Swahili -->
+		<File>UpdateDatabase/Civilizations/Swahili.sql</File>
+		<!-- Ottoman -->
+		<File>UpdateDatabase/Civilizations/Ottoman.sql</File>
+		<File>Lua/OttomanGameplay.lua</File>
+		<File>Lua/Ottoman.lua</File>
+		<File>Lua/Ottoman.xml</File>
+		<!-- Malaysia -->
+		<File>UpdateDatabase/Civilizations/Malaysia.sql</File>
+		<File>UpdateDatabase/Civilizations/Malaysia_Tun_Perak.sql</File>
+		<File>UpdateDatabase/Civilizations/Malaysia_Iskandar.sql</File>
+		<File>Lua/Malaysia.lua</File>
+		<File>Lua/Malaysia_Scripts.lua</File>
+		<!--CIVITAS Masinissa-->
+		<File>UpdateDatabase/Civilizations/Masinissa.sql</File>
+		<File>Text/Masinissa_Text.sql</File>
+		<File>Lua/Masinissa.lua</File>
+		<!--CIVITAS Songhai-->
+		<File>UpdateDatabase/Civilizations/Songhai.sql</File>
+		<File>UpdateDatabase/Civilizations/Songhai_UB.sql</File>
+		<File>UpdateDatabase/Civilizations/Songhai_Sonni_Ali.sql</File>
+		<File>UpdateDatabase/Civilizations/Songhai_Askiya.sql</File>
+		<File>Text/SonghaiText.sql</File>
+		<File>Lua/SonghaiGameplay.lua</File>
+		<File>Lua/Songhai.lua</File>
+		<File>Lua/Songhai.xml</File>
+
+    <File>Platforms/Windows/BLPs/Leaders/China_LeaderFallbackImages.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Leader_Icons.blp</File>
+	</Files>
+</Mod>

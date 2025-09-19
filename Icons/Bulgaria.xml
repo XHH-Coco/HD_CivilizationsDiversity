@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_PRESLAV" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" Index="0"/>
+	</IconDefinitions>
+</GameData>

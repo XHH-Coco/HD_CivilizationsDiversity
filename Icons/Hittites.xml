@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_HATTUSA" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<!-- Yongle-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZHUDI_ANY">
+			<Text>I am the Yongle Emperor, friend to those who would steer their trade ships in my direction, and terrible to those who oppose me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>You may as well seek to conquer heaven itself. Let us see how high your arrows fly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>Conquest by arms was never my aim, but we arrive at a point now where there is no alternative.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZHUDI_ANY">
+			<Text>Though your petty realm is but frogs croaking at the bottom of a well, your wisdom to recognize reality in establishing trade with Our Celestial Empire merits Our benevolence. Cherish this imperial grace!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZHUDI_ANY">
+			<Text>Where your shadow falls, desolation spreads—bones bleach in wastelands, not a blade sprouts. Monstrous are your deeds! We shall lead Our dragon-prowed Treasure Fleet to make you taste the divine wrath!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>The road before me is dark, and black are the surrounding pines. Above I cannot see the heavens, and below I cannot see the earth.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>May you learn from our example.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>A friend is an equal. You are not.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>We are building a coalition of like-minded people. Shall you take part?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>Let both benefit</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>We cannot accept such a thing</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>We have tried our best to educate your people on the merits of good governance, of propriety and tact. I am not sure we succeeded.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>We already have some of those.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>Silk and porcelain, tea and cloth - the lifeblood of the Chinese empire.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>The barking of dogs.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>I have told you again and again to refrain from evil. Soon I will tire of the telling.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZHUDI_ANY">
+			<Text>Come and see the Hall of Supreme Harmony, and let your thoughts be stilled.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZHUDI_ANY">
+			<Text>Heaven is for it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZHUDI_ANY">
+			<Text>We seek knowledge of the world. You are drawn towards the world's center.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ZHUDI_ANY">
+			<Text>I have been summoned - what is it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>To be one with Ming, one with China - what could be greater?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZHUDI_ANY">
+			<Text>When there is peace in the land, there will be peace in the heavens.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZHUDI_ANY">
+			<Text>You continue to resist the will of the center of all things.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>War only makes widows. Surely there are more profitable pasttimes.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>The world is open, let us wander it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHUDI_ANY">
+			<Text>You require our permission to enter, and we do not give it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>We have trade fleets and merchant caravans that seek access to your lands.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZHUDI_ANY">
+			<Text>We know well how to handle barbarian hordes on our frontier.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>I stood from my throne to listen to this?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZHUDI_ANY">
+			<Text>Trade is not so difficult when all agree.</Text>
+		</Row>
+
+		<!--Wu Zetian-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I am Wu Zetian, the most feared and loved Empress in China. The only Empress in China.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Here come a bunch of men waving swords around and shouting. Or am I supposed to call this mess an "art?"</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>My dear, the time has come for you to go.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>The Tianshou Treasure Map stands as divine affirmation of my achievements. It seems you are also a great ruler.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>You turn a blind eye to your people suffering in dire straits while recklessly waging wars, drawing Our utter scorn! Such conduct shall never gain Heaven's sanction!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Please... I'm sure we could work something out. This doesn't have to be the end... does it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Wonderful. I shall treat you as though you are my own child.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I have plenty of admirers, I'm afraid.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I would like to get to know you better.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Friends are how we climb the ladder of our ambition.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I gain nothing from associating with you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Nearly all of your delegation have returned intact!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Oh... This would have been interesting in the Han Dynasty. Now it's out of date, I'm afraid.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I send to you horses carved in jade, dancers from all the regions of China, and, as always the best silks our looms produce.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Your words are sharp. Other things are sharper. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I have a long list of enemies. You are on that list. (Denounces You)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Our capital has layers of history, art settled down into the very dust. Shall you see it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Of course.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>All roads lead here, to the Zhou Empire. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Please sit. Have some tea. No, not that cup. This one I have made just for you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Keep your friends close, and keep your --- I mean. Let us keep our friends close.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Death is so much more pleasant without all the shouting. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Shall you stop my rise upon the world's stage? I think not.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>This war has ceased to inspire.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>We have nothing to hide.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>No. The forbidden has an aspect of mystery, does it not?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Let us measure the extent of both of our lands, that we might better know each other.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>Your presence here is… unsubtle.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>You have more you can give.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY">
+			<Text>I know a good deal when I see one.</Text>
+		</Row>
+	</EnglishText>
+
+  <LocalizedText>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>朕，永乐帝也，商舶之来者即朕之友，违逆朕志者，岂有来日乎。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>何妨讨平天界，吾等始知，汝控弦之所至。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>力争天下，实非吾愿，然别无他图。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>蕞尔小邦，虽蛙鸣于井，然能交好天朝，通商修睦，可谓识时务之俊杰，朕心嘉之。尔其宜知恩荣！</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>尔行所至，白骨露野，焦土千里，诚恶贯满盈之徒也！乾坤朗朗，尔弗知修睦止戈，朕当亲率宝舳，扬天威于瀛海，俾汝曹膺昊天震怒！</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>前路暗昧，周松森然如堵，天地浑然似漆。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>愿尔将大明视为典范。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>地位平等才能做朋友，而你不行。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>朕正与志同道合的人结盟，尔等想要加入吗？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>双赢才是赢。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>我们不能接受。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>我们已经尽力以适当方式为贵方代表团展示了善治、礼仪与外交手段的诸多益处。但我不确定他们究竟学到了多少。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>这些玩意我们不缺。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>丝绸和瓷器、茶叶以及布匹——这些可都是朕天朝之命脉。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>狺狺狂吠。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>朕一次又一次警告过汝需避开邪物，朕很快就要厌于劝戒了。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>来朕的太和殿走走，静下心来吧。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>天意如此。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>我们渴望了解这个世界。而汝则正往世界的中心前进。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_GREETING_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>唤朕何事——速速奏来。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>和大明结盟，和华夏结盟——还有什么比这更伟大的呢？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>国泰民安，才能永享盛世。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>尔等依然还在违逆天朝上国的威严。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>战争只能制造寡妇，有趣的消遣还有更多。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>世界的大门已经敞开，让我们尽情漫步吧。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>汝等想要我们的许可，可我们并不想给。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>朕的贸易舰队和商队想要通过汝之领地。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>我们很清楚该如何对付边境上的野蛮人。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>让我从王座上站起来就为了听这话？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZHUDI_ANY" Language="zh_Hans_CN">
+      <Text>双方都能达成一致时，贸易就不是件难事。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>朕乃武曌, 民皆爱之畏之, 天下唯一之后主。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>循辈舞剑骄躁呼嚎，吾谓此行为“艺能”乎？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>阿郎，时晚矣，可去也。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>天授神图，实彰圣躬之功。观君勋业，洵哉贤明之主也。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>尔纵黎元倒悬而不恤，穷兵黩武，实令朕齿冷！如此暴戾，岂膺天眷乎？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>拜托……如自信能处之。然非其终也……汝岂信乎？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>很好。朕会对你视若己出。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>可惜，朕的仰慕者可太多了。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>朕想要进一步地了解你们。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>友谊是我们达成野心的阶梯。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>和你合作并没什么好处。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>贵国代表团都完好无缺地返回了！</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>噢……在汉代说不定还可以谈谈，但现在嘛，还是算了。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>朕给你送来了一些玉马、来自大周的舞者，以及跟以往相同──那最好的丝绸。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>汝口舌犀利，但朕之剑也未尝不利。 </Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>朕的敌人很多。而汝就在其中。（谴责你）</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>我们的首都坐落在历史的沉淀之上，其中每一粒尘埃都凝聚着艺术的气息。你要不要见识一下？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>当然。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>条条大道通大周。 </Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_GREETING_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>请坐。喝杯茶。不，不是那杯。朕可特意帮你准备了一杯。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>亲近你的朋友，但更要亲近——朕是说，要与朋友保持亲近。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>鬼哭神号的死法实在是太不雅了。 </Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>你要阻止朕在世界舞台的崛起？那可不行。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>这场战争已无法鼓舞人心。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>我们坦坦荡荡。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>不。禁忌同样也代表着神秘感，不是吗？</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>让我们丈量各自的国土面积吧，这样才能加深了解。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>汝之到访真是……毫不含蓄。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>别这么吝啬。</Text>
+    </Replace>
+    <Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WU_ZETIAN_ALT_ANY" Language="zh_Hans_CN">
+      <Text>我在交易方面的眼光不会有错。</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

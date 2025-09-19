@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- ZhuDi -->
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_256.dds"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_80.dds"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_64.dds"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_55.dds"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_50.dds"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_45"/>
+		<Row Name="ATLAS_LEADER_ZHUDI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_ZHUDI_32.dds"/>
+		<!-- WuZeTian -->
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_256.dds"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_80.dds"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_64.dds"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_55.dds"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_50.dds"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_45"/>
+		<Row Name="ATLAS_HD_WU_ZETIAN_ALT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="HD_WU_ZETIAN_ALT_32.dds"/>
+		<!-- Assyria UU -->
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="kisir_sarruti_22.dds"/>
+		<!-- Hattusa -> Baku -->
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_256.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_80.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_64.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_50.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_48.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_45.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_44.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_36.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_30.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_HATTUSA_22.dds"/>
+		<!-- Nebuchadnezzar II Leader Icon -->
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_NEBUCHADNEZZAR_32.dds"/>
+		<!-- Bulgaria UU -->
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_256.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_80.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_50.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_38.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_32.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_BULGARIA_KONIKK" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_BULGARIA_KONIKK_22.dds"/>
+		<!-- Preslav -> Galatia -->
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_256.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_80.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_64.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_50.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_48.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_45.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_44.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_36.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_30.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CIVILIZATION_GALATIA_22.dds"/>
+		<!-- Charlemagne Projects -->
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="256" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_256.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="80" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_80.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="70" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_70.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="50" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_50.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="38" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_38.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="32" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_32.dds"/>
+		<Row Name="ATLAS_PROJECT_CHARLEMAGNE" IconSize="30" IconsPerRow="4" IconsPerColumn="4" Filename="CharlemagneProjects_30.dds"/>
+		<!-- Siam UU -->
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_256.dds"/>
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_80.dds"/>
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_50.dds"/>
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_38.dds"/>
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_32.dds"/>
+		<Row Name="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="SIAMESE_EXPEDITIONARY_FORCES_22.dds"/>
+		<!-- Zimbabwe UU -->
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_256.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_80.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_50.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_38.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_32.dds"/>
+		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_22.dds"/>
+		<!-- Zimbabwe Button -->
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_256.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_80.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_50.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_38.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_32.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_22.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_256.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_80.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_50.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_38.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_32.dds"/>
+		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_22.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_ZHUDI" Atlas="ATLAS_LEADER_ZHUDI" Index="0"/>
+		<Row Name="ICON_LEADER_WU_ZETIAN_ALT" Atlas="ATLAS_HD_WU_ZETIAN_ALT" Index="0"/>
+
+		<Row Name="ICON_UNIT_KNARR"				Atlas="ICON_ATLAS_UNITS"				Index="26"/>
+		<Row Name="ICON_UNIT_KNARR_FOW"			Atlas="ICON_ATLAS_UNITS_FOW"			Index="26"/>
+		<Row Name="ICON_UNIT_KNARR_PORTRAIT"	Atlas="ICON_ATLAS_UNIT_PORTRAITS"		Index="25"/>
+		<Row Name="ICON_PROJECT_CHALEMAGNE_FOOD" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="1"/>
+		<Row Name="ICON_PROJECT_CHALEMAGNE_FAITH" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="2"/>
+		<Row Name="ICON_PROJECT_CHALEMAGNE_GOLD" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="3"/>
+		<Row Name="ICON_PROJECT_CHALEMAGNE_CULTURE" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="0"/>
+		<Row Name="ICON_PROJECT_CHALEMAGNE_SCIENCE" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="4"/>
+		<Row Name="ICON_UNIT_SIAMESE_EXPEDITIONARY_FORCES" Atlas="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" Index="0"/>
+		<Row Name="ICON_UNIT_ZIMBABWE_PATHFINDER" Atlas="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" Index="0"/>
+		<Row Name="ICON_UNITCOMMAND_PATHFINDER_PLANT" Atlas="ATLAS_UNIT_ZIMBABWE_PLANT" Index="0"/>
+		<Row Name="ICON_UNITCOMMAND_PATHFINDER_COPY" Atlas="ATLAS_UNIT_ZIMBABWE_COPY" Index="0"/>
+		<Row Name="ICON_UNIT_ASSYRIA_KISIR_SARRUTI" Atlas="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" Index="0"/>
+		<Row Name="ICON_UNIT_ASSYRIA_KISIR_SARRUTI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="50"/>
+		<Row Name="ICON_CIVILIZATION_BAKU" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" Index="0"/>
+		<Row Name="ICON_LEADER_NEBUCHADNEZZAR_II" Atlas="ATLAS_LEADER_LEADER_NEBUCHADNEZZAR" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_GALATIA" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_GALATIA" Index="0"/>
+		<Row Name="ICON_UNIT_ARMENIA_APOSTLE" Atlas="ICON_ATLAS_UNITS" Index="5"/>
+		<Row Name="ICON_UNIT_SWAHILI_DHOW" Atlas="ICON_ATLAS_EXPANSION_2_UNITS" Index="3"/>
+	</IconDefinitions>
+</GameData>
