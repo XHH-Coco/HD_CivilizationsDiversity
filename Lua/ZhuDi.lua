@@ -3,7 +3,7 @@ ExposedMembers.DLHD.Utils = ExposedMembers.DLHD.Utils or {};
 Utils = ExposedMembers.DLHD.Utils;
 
 -- 与城邦相遇
-local NOTIFICATION_CITYSTATE_MET_FIRST_HASH = GameInfo.Types['NOTIFICATION_CITYSTATE_MET_FIRST'].Hash;
+local NOTIFICATION_QIXIA_XIYANG_HASH = GameInfo.Types['NOTIFICATION_QIXIA_XIYANG'].Hash;
 function ZhuDiMeetCitystate(playerId, citystateId)
   local citystateConfig = PlayerConfigurations[citystateId]
   local citystateLeader = citystateConfig:GetLeaderTypeName()
@@ -46,7 +46,7 @@ function ZhuDiMeetCitystate(playerId, citystateId)
   end
   meetList[#meetList + 1] = citystateType
   player:SetProperty("HD_ZHUDI_MEET_CITYSTATE_LIST", meetList)
-  SendMeetCitystateNotification(playerId, NOTIFICATION_CITYSTATE_MET_FIRST_HASH, Locale.Lookup('LOC_TRAIT_ZHUDI_NAME'), msg)
+  SendMeetCitystateNotification(playerId, NOTIFICATION_QIXIA_XIYANG_HASH, Locale.Lookup('LOC_TRAIT_ZHUDI_NAME'), msg)
 end
 
 function SendMeetCitystateNotification(playerId, notificationType, message, summary)
