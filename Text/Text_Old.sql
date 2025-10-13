@@ -791,7 +791,7 @@ values
     ("LOC_ABILITY_MUTOTA_NAME",                                                           "Mutota's band"),
     ("LOC_ABILITY_MUTOTA_DESCRIPTION",                                                    "+10 Combat Strength starting on river."),
     ("LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_NAME",                                             "Dzimbabwe"),
-    ("LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_DESCRIPTION",                                      "Masonry unlocks the Builder ability to construct Dzimbabwes, unique improvement to Great Zimbabwe. [NEWLINE]+2 [ICON_FOOD] Food. +2 [ICON_GOLD] Gold. +1 [ICON_HOUSING] Housing.[NEWLINE]Cities receive +1 [ICON_AMENITIES] Amenity from their first Dzimbabwe Improvement. Upon discovering Natural History, cities receive +1 [ICON_AMENITIES] Amenity from their second Dzimbabwe Improvement.[NEWLINE]Tiles receive +1 [ICON_GOLD] Gold if adjacent to a Dzimbabwe. +4 [ICON_Strength] Defense Strength for occupying units. Cannot be constructed adjacent to one another."),
+    ("LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_DESCRIPTION",                                      "+2 [ICON_FOOD] Food. +2 [ICON_GOLD] Gold. +1 [ICON_HOUSING] Housing.[NEWLINE]Cities receive +1 [ICON_AMENITIES] Amenity from their first Dzimbabwe Improvement. Upon discovering Natural History, cities receive +1 [ICON_AMENITIES] Amenity from their second Dzimbabwe Improvement.[NEWLINE]Tiles receive +1 [ICON_GOLD] Gold if adjacent to a Dzimbabwe. +4 [ICON_Strength] Defense Strength for occupying units. Cannot be constructed adjacent to one another."),
     ("LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_GEDEMO_DZIMBABWE_CHAPTER_HISTORY_PARA_1",   "A Dzimbabwe is a walled fort or citadel. It was a place for the local leader to live, and a point of defense in case of city attack. Dzimbabwe is a Shona name that, while the translation varies, can mean houses of stone. The ruins contain numerous stone enclosures with soaring walls as tall as 11 meters (36 feet). They were made without the use of mortar. Some scholars think that the city's rulers secluded themselves in a hilltop area where they could conduct rainmaking ceremonies, while others think that the city's rulers were willing to mix with people from different walks of life. Some scholars also think that the city's rulers didn't have a permanent palace but that when a ruler died the heir ruled from wherever they happened to be living at the time.");
 
     -- STUU expansion
@@ -1609,7 +1609,7 @@ values
     ("zh_Hans_CN",  "LOC_ABILITY_MUTOTA_NAME",                                                           "穆托塔的战团"),
     ("zh_Hans_CN",  "LOC_ABILITY_MUTOTA_DESCRIPTION",                                                    "在与河流相邻的单元格开始回合时+10[ICON_Strength]战斗力"),
     ("zh_Hans_CN",  "LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_NAME",                                             "津巴布韦石城"),
-    ("zh_Hans_CN",  "LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_DESCRIPTION",                                      "砌砖解锁的津巴布韦特色改良设施。+2粮食+2金币+1住房。城市中第一座津巴布韦石城为所在城市+1宜居度，研究“自然历史”以后，第二座津巴布韦石城+1位所在城市+1宜居度。周围单元格+1金币。战斗单位在津巴布韦石城单元格时+4战斗力。不能与另一个津巴布韦石城相邻。"),
+    ("zh_Hans_CN",  "LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_DESCRIPTION",                                      "+2粮食+2金币+1住房。城市中第一座津巴布韦石城为所在城市+1宜居度，研究“自然历史”以后，第二座津巴布韦石城+1位所在城市+1宜居度。周围单元格+1金币。战斗单位在津巴布韦石城单元格时+4战斗力。不能与另一个津巴布韦石城相邻。"),
     ("zh_Hans_CN",  "LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_GEDEMO_DZIMBABWE_CHAPTER_HISTORY_PARA_1",   "津巴布韦石城是一个有墙的堡垒或城堡。它是当地领导人居住的地方，也是城市遭受攻击时的一个防御点。津巴布韦石城是修纳人的名字，虽然翻译不一，但都是石头房子的意思。遗迹中包含大量的石头围墙，墙体高达 11米（36英尺）。它们是在没有使用砂浆的情况下建成的。一些学者认为，该城市的统治者将自己隐居在一个山顶区域，在那里他们可以进行降雨仪式，而另一些学者则认为该城市的统治者愿意与来自不同阶层的人混合。一些学者还认为，该城市的统治者没有永久性的宫殿，但当一个统治者去世时，继承人在他们当时刚好居住的地方进行统治。"),
 
     -- 264988360_GS'CIVITAS Iskandar'CN_Add_FI
@@ -2093,7 +2093,7 @@ values
     ("zh_Hans_CN",  "LOC_MODIFIER_CVS_BERBER_UA_DISTRICT_COMMERCIAL_HUB",                            "+{1_num} [ICON_Gold] 金币 来自相邻 绿洲"),
     ("zh_Hans_CN",  "LOC_MODIFIER_CVS_BERBER_UA_DISTRICT_HARBOR",                                    "+{1_num} [ICON_Gold] 金币 来自相邻 绿洲"),
     ("zh_Hans_CN",  "LOC_IMPROVEMENT_CVS_BERBER_UI_NAME",                                            "柏柏尔井渠"),
-    ("zh_Hans_CN",  "LOC_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION",                                     "灌溉解锁，+1食物。每相邻其他两个柏柏尔井渠、每相邻一个山脉或丘陵单元格+1粮食食物。 与柏柏尔井渠相邻的平坦地形产出+1 食物，不叠加。必须建在平坦沙漠地形上，不能相邻超过两个柏柏尔井渠。（相邻条件类似长城）"),
+    ("zh_Hans_CN",  "LOC_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION",                                     "+1食物。每相邻其他两个柏柏尔井渠、每相邻一个山脉或丘陵单元格+1粮食食物。 与柏柏尔井渠相邻的平坦地形产出+1 食物，不叠加。必须建在平坦沙漠地形上，不能相邻超过两个柏柏尔井渠。（相邻条件类似长城）"),
     ("zh_Hans_CN",  "LOC_UNIT_CVS_BERBER_UU_NAME",                                                   "阿瑞尔战士"),
     ("zh_Hans_CN",  "LOC_UNIT_CVS_BERBER_UU_DESCRIPTION",                                            "古典时代柏柏尔特色抗骑兵单位，取代长矛兵。完成市政“军事训练”即可解锁。[ICON_Strength]战斗力不及长矛兵，但训练成本较低，且在防御时获得[ICON_Strength]战斗力提升(位于友好领土内时提升效果翻倍）。"),
     ("zh_Hans_CN",  "LOC_MODIFIER_CVS_BERBER_UU_DEFENDING",                                          "+{1_Amount} 战斗力 来自于防御时"),
@@ -2328,7 +2328,7 @@ values
     ("zh_Hans_CN",  "LOC_ABILITY_MYINSI_DISTRICT_COMBAT_MODIFIER_DESCRIPTION",                       "+{1_Amount} 战斗力 来自于附近的区域"),
     ("zh_Hans_CN",  "LOC_ABILITY_MYINSI_ENCAMPMENT_OR_CITY_COMBAT_MODIFIER_DESCRIPTION",             "+{1_Amount} 战斗力 来自于附近的市中心或军营"),
     ("zh_Hans_CN",  "LOC_IMPROVEMENT_SUK_PAYA_NAME",                                                 "缅甸佛塔"),
-    ("zh_Hans_CN",  "LOC_IMPROVEMENT_SUK_PAYA_DESCRIPTION",                                          "政治哲学解锁。+1信仰+1文化，每相邻2座农场+1信仰，两个单元格内每座缅甸佛塔+1文化值。每座缅甸佛塔为所在城市范围内所有重骑兵、抗骑兵和近战单位+1战斗力（上限为4）。只能建造在草原和平原上，包括泛滥平原和丘陵。不能与另一座缅甸佛塔相邻。研究“飞行”科技后提供相当于文化值产出100%的旅游业绩。"),
+    ("zh_Hans_CN",  "LOC_IMPROVEMENT_SUK_PAYA_DESCRIPTION",                                          "+1信仰+1文化，每相邻2座农场+1信仰，两个单元格内每座缅甸佛塔+1文化值。每座缅甸佛塔为所在城市范围内所有重骑兵、抗骑兵和近战单位+1战斗力（上限为4）。只能建造在草原和平原上，包括泛滥平原和丘陵。不能与另一座缅甸佛塔相邻。研究“飞行”科技后提供相当于文化值产出100%的旅游业绩。"),
     ("zh_Hans_CN",  "LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_SUK_PAYA_CHAPTER_HISTORY_PARA_1",       "宝塔在缅甸的景观中占有突出地位，为该国赢得了“宝塔之国”的绰号。该国的几个城市，包括曼德勒和蒲甘，以其丰富的宝塔而闻名。在缅甸语中，宝塔有许多不同的名称，比较常见的“Paya”源自梵文“vara”，指的是宝塔、佛像以及皇室和宗教人士，包括佛陀、国王和僧侣。"),
     ("zh_Hans_CN",  "LOC_IMPROVEMENT_SUK_PAYA_COMBAT_MODIFIER_DESCRIPTION",                          "+{Property} 战斗力 来自于宝塔"),
     ("zh_Hans_CN",  "LOC_LEADER_SUK_BAYINNAUNG_NAME",                                                "莽应龙"),
