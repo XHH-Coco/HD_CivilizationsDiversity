@@ -1,11 +1,10 @@
 delete from TraitModifiers where TraitType = 'TRAIT_LEADER_SUK_SIAMOISES';
 delete from TraitModifiers where ModifierId like '%_SUK_SIAMOISES';
 
-insert or replace into TraitModifiers
-	(TraitType,							ModifierId)
-values
-	--城市有外交区可以额外建造区域
-	('TRAIT_LEADER_SUK_SIAMOISES',		'SUK_SIAMOISES_DIPLOMACY_EXTRA_DISTRICT');
+--城市有外交区可以额外建造区域
+insert or replace into TraitModifiers (TraitType, ModifierId) select
+	'TRAIT_LEADER_SUK_SIAMOISES', 'SUK_SIAMOISES_DIPLOMACY_EXTRA_DISTRICT'
+where exists (select TraitType from Traits where TraitType = 'TRAIT_LEADER_SUK_SIAMOISES');
 
 insert or replace into Modifiers
 	(ModifierId,																ModifierType,																					SubjectRequirementSetId)
