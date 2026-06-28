@@ -156,7 +156,7 @@ insert or replace into Units
 	FormationClass,				PromotionClass,					PseudoYieldType,						AdvisorType)
 values
 	('UNIT_KNARR',				'LOC_UNIT_KNARR_NAME',			'LOC_UNIT_KNARR_DESCRIPTION',			'TRAIT_CIVILIZATION_UNIT_KNARR',		NULL,			'TECH_COMPASS_HD',
-	2,				4,			15,		10,				1,		30,    1,				'YIELD_GOLD',	'DOMAIN_SEA',
+	2,				3,			15,		10,				1,		30,    1,				'YIELD_GOLD',	'DOMAIN_SEA',
 	'FORMATION_CLASS_NAVAL',	'PROMOTION_CLASS_RECON',		'PSEUDOYIELD_UNIT_NAVAL_COMBAT',		'ADVISOR_CONQUEST');
 insert or replace into UnitUpgrades
 	(Unit,						UpgradeUnit)
