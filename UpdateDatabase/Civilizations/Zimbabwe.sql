@@ -88,8 +88,6 @@ values
 	('Dzimbabwe_Adjacency_Pasture_TIER2',		'Placeholder',	'YIELD_PRODUCTION',		2,				'IMPROVEMENT_PASTURE',		'CIVIC_FEUDALISM',			Null),
 	('Dzimbabwe_Adjacency_Quarry_TIER2',		'Placeholder',	'YIELD_PRODUCTION',		2,				'IMPROVEMENT_QUARRY',		'CIVIC_FEUDALISM',			Null);
 
-update Improvement_Tourism set TourismSource = 'TOURISMSOURCE_FOOD' where ImprovementType = 'IMPROVEMENT_GEDEMO_DZIMBABWE';
-
 -- New Unique Unit
 insert or replace into GlobalParameters
 	(Name,								Value)

@@ -72,7 +72,7 @@ insert or replace into Improvement_YieldChanges
 values
 	('IMPROVEMENT_BOOM_LAMASSU',	'YIELD_FAITH',		1);
 delete from Improvement_BonusYieldChanges where ImprovementType = 'IMPROVEMENT_BOOM_LAMASSU';
-delete from Improvement_Tourism where ImprovementType = 'IMPROVEMENT_BOOM_LAMASSU';
+
 insert or replace into ImprovementModifiers
 	(ImprovementType,				ModifierId)
 values

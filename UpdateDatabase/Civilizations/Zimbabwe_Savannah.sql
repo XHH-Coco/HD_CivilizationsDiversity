@@ -145,8 +145,6 @@ values
 	('Dzimbabwe_Adjacency_Pasture_CULTURE',		                'Placeholder',	'YIELD_CULTURE',		1,				'IMPROVEMENT_PASTURE',		'CIVIC_RECORDED_HISTORY',	Null),
 	('Dzimbabwe_Adjacency_Quarry_CULTURE',		                'Placeholder',	'YIELD_CULTURE',		1,				'IMPROVEMENT_QUARRY',		'CIVIC_RECORDED_HISTORY',	Null);
 
-update Improvement_Tourism set TourismSource = 'TOURISMSOURCE_PRODUCTION' where ImprovementType = 'IMPROVEMENT_GEDEMO_DZIMBABWE';
-
 --StartBias
 delete from StartBiasFeatures where CivilizationType = 'CIVILIZATION_GEDEMO_ZIMBABWE';
 delete from StartBiasTerrains where CivilizationType = 'CIVILIZATION_GEDEMO_ZIMBABWE';
