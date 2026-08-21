@@ -63,19 +63,19 @@ insert or replace into UnitAbilityModifiers (UnitAbilityType, ModifierId) values
 
 -- UD 水上市场
 update Districts set TravelTime = 2 where DistrictType = 'DISTRICT_SUK_FLOATINGMARKET';
-insert or replace into Adjacency_YieldChanges
-	(ID,																		Description,																YieldType,					YieldChange,	AdjacentDistrict, 							PrereqTech,				AdjacentRiver)
-values
-	('Plantation_Floatingmarkert_Gold', 		'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0),
-	('Pasture_Floatingmarkert_Gold', 				'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0),
-	('Camp_Floatingmarkert_Gold', 					'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0);
+-- insert or replace into Adjacency_YieldChanges
+-- 	(ID,																		Description,																YieldType,					YieldChange,	AdjacentDistrict, 							PrereqTech,				AdjacentRiver)
+-- values
+-- 	('Plantation_Floatingmarkert_Gold', 		'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0),
+-- 	('Pasture_Floatingmarkert_Gold', 				'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0),
+-- 	('Camp_Floatingmarkert_Gold', 					'Placeholder',															'YIELD_GOLD',				3,						'DISTRICT_SUK_FLOATINGMARKET',	'TECH_CURRENCY',	0);
 
-insert or replace into Improvement_Adjacencies
-	(ImprovementType,						YieldChangeId)
-values
-	('IMPROVEMENT_CAMP',				'Camp_Floatingmarkert_Gold'),
-	('IMPROVEMENT_PLANTATION',	'Plantation_Floatingmarkert_Gold'),
-	('IMPROVEMENT_PASTURE',			'Pasture_Floatingmarkert_Gold');
+-- insert or replace into Improvement_Adjacencies
+-- 	(ImprovementType,						YieldChangeId)
+-- values
+-- 	('IMPROVEMENT_CAMP',				'Camp_Floatingmarkert_Gold'),
+-- 	('IMPROVEMENT_PLANTATION',	'Plantation_Floatingmarkert_Gold'),
+-- 	('IMPROVEMENT_PASTURE',			'Pasture_Floatingmarkert_Gold');
 
 delete from DistrictModifiers where DistrictType = 'DISTRICT_SUK_FLOATINGMARKET' and ModifierId in (
 	'SUK_FLOATINGMARKET_LUXURY_GOLD_MODIFIER',
