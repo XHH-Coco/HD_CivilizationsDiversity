@@ -161,7 +161,7 @@ values
 insert or replace into UnitUpgrades
 	(Unit,						UpgradeUnit)
 values
-	('UNIT_KNARR',				'UNIT_DL_MEDIEVAL_PIRATE');
+	('UNIT_KNARR',				'UNIT_HD_MEDIEVAL_PIRATE');
 insert or replace into UnitReplaces
 	(CivUniqueUnitType,			ReplacesUnitType)
 values
