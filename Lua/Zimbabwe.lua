@@ -5,6 +5,8 @@ Utils = ExposedMembers.DLHD.Utils;
 -- ======================================================================================================================================================
 -- 津巴布韦LA 单位消耗资源
 -- ======================================================================================================================================================
+local LTRAIT_UNITS_TURN_TAG = 'HD_LTRAIT_UNITS_TURN';
+
 local LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MIN = GlobalParameters.HD_LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MIN or 0;
 local LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MAX = GlobalParameters.HD_LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MAX or 0;
 local LTRAIT_UNITS_RECOVER_MOVEMENT = GlobalParameters.HD_LTRAIT_UNITS_RECOVER_MOVEMENT or 0;
@@ -39,6 +41,10 @@ function MutotaLtraitConsumeResource(playerId, unitId)
     ImprovementBuilder.SetImprovementType(plot, -1);
   end
   ResourceBuilder.SetResourceType(plot, -1);
+
+  -- 记录回合数 每回合限一次
+  local turn = Game.GetCurrentGameTurn();
+  unit:SetProperty(LTRAIT_UNITS_TURN_TAG, turn);
 
   -- 额外特效
   local recoverMovement = LTRAIT_UNITS_RECOVER_MOVEMENT;
