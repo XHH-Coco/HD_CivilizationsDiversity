@@ -83,19 +83,6 @@
 		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_38.dds"/>
 		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_32.dds"/>
 		<Row Name="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="UNIT_ZIMBABWE_PATHFINDER_22.dds"/>
-		<!-- Zimbabwe Button -->
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_256.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_80.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_50.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_38.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_32.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_COPY" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_COPY_22.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_256.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_80.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_50.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_38.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_32.dds"/>
-		<Row Name="ATLAS_UNIT_ZIMBABWE_PLANT" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ZIMBABWE_PLANT_22.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_ZHUDI" Atlas="ATLAS_LEADER_ZHUDI" Index="0"/>
@@ -111,8 +98,9 @@
 		<Row Name="ICON_PROJECT_CHALEMAGNE_SCIENCE" Atlas="ATLAS_PROJECT_CHARLEMAGNE" Index="4"/>
 		<Row Name="ICON_UNIT_SIAMESE_EXPEDITIONARY_FORCES" Atlas="ATLAS_UNIT_SIAMESE_EXPEDITIONARY_FORCES" Index="0"/>
 		<Row Name="ICON_UNIT_ZIMBABWE_PATHFINDER" Atlas="ATLAS_UNIT_UNIT_ZIMBABWE_PATHFINDER" Index="0"/>
-		<Row Name="ICON_UNITCOMMAND_PATHFINDER_PLANT" Atlas="ATLAS_UNIT_ZIMBABWE_PLANT" Index="0"/>
-		<Row Name="ICON_UNITCOMMAND_PATHFINDER_COPY" Atlas="ATLAS_UNIT_ZIMBABWE_COPY" Index="0"/>
+		<Row Name="ICON_UNITCOMMAND_MUTOTA_LTRAIT_CONSUME_RESOURCE" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="57"/>
+		<Row Name="ICON_UNITCOMMAND_ZIMBABWE_PATHFINDER_EQUIP_RESOURCE" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="5"/>
+		<Row Name="ICON_UNITCOMMAND_ZIMBABWE_PATHFINDER_FOUND_CITY" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="55"/>
 		<Row Name="ICON_UNIT_ASSYRIA_KISIR_SARRUTI" Atlas="ICON_ATLAS_UNIT_ASSYRIA_KISIR_SARRUTI" Index="0"/>
 		<Row Name="ICON_UNIT_ASSYRIA_KISIR_SARRUTI_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="50"/>
 		<Row Name="ICON_CIVILIZATION_BAKU" Atlas="ATLAS_CIVILIZATION_CIVILIZATION_HATTUSA" Index="0"/>
@@ -121,4 +109,8 @@
 		<Row Name="ICON_UNIT_ARMENIA_APOSTLE" Atlas="ICON_ATLAS_UNITS" Index="5"/>
 		<Row Name="ICON_UNIT_SWAHILI_DHOW" Atlas="ICON_ATLAS_EXPANSION_2_UNITS" Index="3"/>
 	</IconDefinitions>
+
+	<IconAliases>
+		<Row Name="ICON_UNIT_ZIMBABWE_PATHFINDER_PORTRAIT" OtherName="ICON_UNIT_SETTLER_PORTRAIT"/>
+	</IconAliases>
 </GameData>

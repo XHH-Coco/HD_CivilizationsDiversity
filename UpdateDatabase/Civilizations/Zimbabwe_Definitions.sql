@@ -1,0 +1,39 @@
+insert or ignore into Types (Type, Kind) values
+  ('BUILDING_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT',     'KIND_BUILDING'),
+  ('BUILDING_TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE',  'KIND_BUILDING'),
+  ('TRAIT_CIVILIZATION_UNIT_ZIMBABWE_PATHFINDER',		            'KIND_TRAIT'),
+	('UNIT_ZIMBABWE_PATHFINDER',						                      'KIND_UNIT');
+
+-- 虚拟建筑
+insert or ignore into Buildings (BuildingType, Name, Cost, Maintenance, AdvisorType, MustPurchase, InternalOnly) values
+  ('BUILDING_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT',     'LOC_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT_NAME',  0, 0, 'ADVISOR_GENERIC', 1, 1),
+  ('BUILDING_TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE',  'LOC_IMPROVEMENT_GEDEMO_DZIMBABWE_NAME',                  0, 0, 'ADVISOR_GENERIC', 1, 1);
+
+insert or ignore into Buildings_XP2 (BuildingType, Pillage) values
+  ('BUILDING_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT',     0),
+  ('BUILDING_TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE',  0);
+
+insert or ignore into HD_DUMMY_BUILDINGS (BuildingType) values
+  ('BUILDING_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT'),
+  ('BUILDING_TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE');
+
+insert or ignore into HD_Trait_Unique_Dummy_Buildings (TraitType, BuildingType) values
+  ('TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT',    'BUILDING_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT'),
+  ('TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE', 'BUILDING_TRAIT_CIVILIZATION_IMPROVEMENT_GEDEMO_DZIMBABWE');
+
+-- 特色单位
+insert or ignore into Traits (TraitType) values ('TRAIT_CIVILIZATION_UNIT_ZIMBABWE_PATHFINDER');
+insert or ignore into LeaderTraits (LeaderType, TraitType) values
+	('LEADER_GEDEMO_MUTOTA', 'TRAIT_CIVILIZATION_UNIT_ZIMBABWE_PATHFINDER');
+
+insert or ignore into TypeTags (Type, Tag) values
+	('UNIT_ZIMBABWE_PATHFINDER',	'CLASS_LANDCIVILIAN'),
+	('UNIT_ZIMBABWE_PATHFINDER',	'CLASS_LAND_UNITS');
+
+insert or ignore into Units
+  (UnitType, Name, Description, TraitType, PrereqTech, MandatoryObsoleteTech,
+  BaseSightRange, BaseMoves, Combat, RangedCombat, Range, Cost, Maintenance, ZoneOfControl, PurchaseYield, CostProgressionModel, CostProgressionParam1, Domain,
+  FormationClass, PromotionClass, PseudoYieldType, AdvisorType, StrategicResource)
+values
+  ('UNIT_ZIMBABWE_PATHFINDER', 'LOC_UNIT_ZIMBABWE_PATHFINDER_NAME', 'LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION', 'TRAIT_CIVILIZATION_UNIT_ZIMBABWE_PATHFINDER', NULL, NULL,
+  3, 0, 0, 0, 0, 80, 0, 0, 'YIELD_GOLD', 'COST_PROGRESSION_PREVIOUS_COPIES', 30, 'DOMAIN_LAND', 'FORMATION_CLASS_CIVILIAN', NULL, NULL, 'ADVISOR_GENERIC', NULL);

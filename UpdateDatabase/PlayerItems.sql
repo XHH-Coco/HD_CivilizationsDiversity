@@ -98,8 +98,8 @@ from Players where CivilizationType = 'CIVILIZATION_SUK_SIAM';
 insert or ignore into PlayerItems
 	(Domain,						CivilizationType,				LeaderType,		Type,							Icon,								Name,									Description,											SortIndex)
 select distinct
-	'Players:Expansion2_Players',	'CIVILIZATION_GEDEMO_ZIMBABWE',	LeaderType,		'UNIT_ZIMBABWE_PATHFINDER',		'ICON_UNIT_ZIMBABWE_PATHFINDER',	'LOC_UNIT_ZIMBABWE_PATHFINDER_NAME',	'LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION_FRONTEND',	31
-from Players where CivilizationType = 'CIVILIZATION_GEDEMO_ZIMBABWE';
+	'Players:Expansion2_Players',	CivilizationType,	'LEADER_GEDEMO_MUTOTA',		'UNIT_ZIMBABWE_PATHFINDER',		'ICON_UNIT_ZIMBABWE_PATHFINDER',	'LOC_UNIT_ZIMBABWE_PATHFINDER_NAME',	'LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION',	31
+from Players where LeaderType = 'LEADER_GEDEMO_MUTOTA';
 
 -- Armenia
 -- Unique Units

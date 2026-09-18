@@ -86,16 +86,6 @@
 		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
 		<ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
 	</Criteria>
-	<Criteria id="Zimbabwe_Monopoly_Expansion2">
-		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
-		<ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
-		<ModInUse>b248a322-3e2a-4a6a-830a-6b0d1f3435fc</ModInUse>
-	</Criteria>
-	<Criteria id="Zimbabwe_Savannah_Expansion2">
-        <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
-        <ModInUse>41dadd30-1c1f-4641-b877-b4cafbed5343</ModInUse>
-    	<ModInUse>1ec10c1f-677c-4af8-be22-e7df2f4de858</ModInUse>
-    </Criteria>
 	<Criteria id="Berbers_Expansion2">
 		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
 		<ModInUse>ba7d3560-2e89-4f92-960a-b6171ce51926</ModInUse>
@@ -168,10 +158,7 @@
 			<File>Text/GameplayText.sql</File>
 			<File>Text/DiplomacyText.sql</File>
 			<File>Text/IcelandText.sql</File>
-		</UpdateText>
-		<UpdateText id="CivilizationsDiversity_Zimbabwe_Savannah_Text">
-			<Properties><LoadOrder>17000</LoadOrder></Properties>
-			<File>Text/Zimbabwe_Savannah_Text.sql</File>
+			<File>Text/Zimbabwe_Text.sql</File>
 		</UpdateText>
 		<UpdateColors id="CivilizationsDiversity_FrontEndColors">
 			<File>UpdateDatabase/Colors.sql</File>
@@ -345,18 +332,6 @@
 			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_50.dds</File>
 			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_80.dds</File>
 			<File>Assets/UNIT_ZIMBABWE_PATHFINDER_256.dds</File>
-			<File>Assets/ZIMBABWE_COPY_22.dds</File>
-			<File>Assets/ZIMBABWE_COPY_32.dds</File>
-			<File>Assets/ZIMBABWE_COPY_38.dds</File>
-			<File>Assets/ZIMBABWE_COPY_50.dds</File>
-			<File>Assets/ZIMBABWE_COPY_80.dds</File>
-			<File>Assets/ZIMBABWE_COPY_256.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_22.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_32.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_38.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_50.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_80.dds</File>
-			<File>Assets/ZIMBABWE_PLANT_256.dds</File>
 			<File>Assets/CIVILIZATION_GALATIA_22.dds</File>
 			<File>Assets/CIVILIZATION_GALATIA_30.dds</File>
 			<File>Assets/CIVILIZATION_GALATIA_36.dds</File>
@@ -561,22 +536,22 @@
 			<File>UpdateDatabase/Civilizations/Siam_Narai.sql</File>
 		</UpdateDatabase>
 		<!-- Zimbabwe -->
+		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Definitions" criteria="Zimbabwe_Expansion2">
+			<Properties><LoadOrder>12001</LoadOrder></Properties>
+			<File>UpdateDatabase/Civilizations/Zimbabwe_Definitions.sql</File>
+		</UpdateDatabase>
 		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Database" criteria="Zimbabwe_Expansion2">
 			<Properties><LoadOrder>16005</LoadOrder></Properties>
 			<File>UpdateDatabase/Civilizations/Zimbabwe.sql</File>
 		</UpdateDatabase>
-		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Monopoly_Database" criteria="Zimbabwe_Monopoly_Expansion2">
-			<Properties><LoadOrder>20005</LoadOrder></Properties>
-			<File>UpdateDatabase/Civilizations/Zimbabwe_Monopoly.sql</File>
-		</UpdateDatabase>
-		<UpdateDatabase id="CivilizationsDiversity_Zimbabwe_Savannah_Database" criteria="Zimbabwe_Savannah_Expansion2">
-			<Properties><LoadOrder>30000</LoadOrder></Properties>
-			<File>UpdateDatabase/Civilizations/Zimbabwe_Savannah.sql</File>
-		</UpdateDatabase>
-		<UpdateText id="CivilizationsDiversity_Zimbabwe_Savannah_Text" criteria="Zimbabwe_Savannah_Expansion2">
+		<UpdateText id="CivilizationsDiversity_Zimbabwe_Text" criteria="Zimbabwe_Expansion2">
 			<Properties><LoadOrder>17000</LoadOrder></Properties>
-			<File>Text/Zimbabwe_Savannah_Text.sql</File>
+			<File>Text/Zimbabwe_Text.sql</File>
 		</UpdateText>
+		<AddGameplayScripts id="CivilizationsDiversity_Zimbabwe_Lua" criteria="Zimbabwe_Expansion2">
+			<Properties><LoadOrder>16005</LoadOrder></Properties>
+			<File>Lua/Zimbabwe.lua</File>
+		</AddGameplayScripts>
 		<!-- Berbers -->
 		<UpdateDatabase id="CivilizationsDiversity_Berbers_Database" criteria="Berbers_Expansion2">
 			<Properties><LoadOrder>16005</LoadOrder></Properties>
@@ -750,18 +725,7 @@
 		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_50.dds</File>
 		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_80.dds</File>
 		<File>Assets/UNIT_ZIMBABWE_PATHFINDER_256.dds</File>
-		<File>Assets/ZIMBABWE_COPY_22.dds</File>
-		<File>Assets/ZIMBABWE_COPY_32.dds</File>
-		<File>Assets/ZIMBABWE_COPY_38.dds</File>
-		<File>Assets/ZIMBABWE_COPY_50.dds</File>
-		<File>Assets/ZIMBABWE_COPY_80.dds</File>
-		<File>Assets/ZIMBABWE_COPY_256.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_22.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_32.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_38.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_50.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_80.dds</File>
-		<File>Assets/ZIMBABWE_PLANT_256.dds</File>
+
 		<File>Assets/CIVILIZATION_GALATIA_22.dds</File>
 		<File>Assets/CIVILIZATION_GALATIA_30.dds</File>
 		<File>Assets/CIVILIZATION_GALATIA_36.dds</File>
@@ -837,10 +801,10 @@
 		<File>Lua/Suk_SiamRamkhamhaeng_CoreFunctions.lua</File>
 		<File>Lua/Siam_Narai.lua</File>
 		<!-- Zimbabwe -->
+		<File>UpdateDatabase/Civilizations/Zimbabwe_Definitions.sql</File>
 		<File>UpdateDatabase/Civilizations/Zimbabwe.sql</File>
-		<File>UpdateDatabase/Civilizations/Zimbabwe_Monopoly.sql</File>
-		<File>UpdateDatabase/Civilizations/Zimbabwe_Savannah.sql</File>
-		<File>Text/Zimbabwe_Savannah_Text.sql</File>
+		<File>Text/Zimbabwe_Text.sql</File>
+		<File>Lua/Zimbabwe.lua</File>
 		<!-- Berbers -->
 		<File>UpdateDatabase/Civilizations/Berbers.sql</File>
 		<!-- Armenia -->
