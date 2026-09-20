@@ -3,7 +3,7 @@ insert or replace into LocalizedText (Language, Tag, Text) values
 	("zh_Hans_CN", "LOC_TRAIT_CIVILIZATION_GEDEMO_ZIMBABWE_CIV_TRAIT_DESCRIPTION", 	"商业中心和工业区为相邻的奢侈资源+1 [ICON_CULTURE] 文化值。你每拥有一种运载资源，+1 [ICON_TRADEROUTE] 贸易路线容量；每拥有一种珍兽资源，[ICON_TRADEROUTE] 贸易路线+1 [ICON_CULTURE] 文化值；每拥有一种货币资源，[ICON_TRADEROUTE] 贸易路线+6 [ICON_GOLD] 金币。"),
 
 	("zh_Hans_CN", "LOC_TRAIT_LEADER_GEDEMO_MUTOTA_LTRAIT_NAME", 										"穆塔帕崛起"),
-	("zh_Hans_CN", "LOC_TRAIT_LEADER_GEDEMO_MUTOTA_LTRAIT_DESCRIPTION", 						"军事单位和平民单位可以消耗所在单元格的资源，回复2点 [ICON_MOVEMENT] 移动力，且会根据资源的用途获得额外收益。"),
+	("zh_Hans_CN", "LOC_TRAIT_LEADER_GEDEMO_MUTOTA_LTRAIT_DESCRIPTION", 						"军事单位和平民单位可以消耗所在单元格的资源，回复1点 [ICON_MOVEMENT] 移动力，且会根据资源的用途获得额外收益。"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_DESCRIPTION", 											"可以消耗所在单元格的资源，回复2点 [ICON_MOVEMENT] 移动力，且会根据资源的用途获得额外收益。"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_TOOLTIP", 													"消耗 {1_Icon} {2_ResouceName}[NEWLINE][NEWLINE][ICON_BULLET]回复2点 [ICON_MOVEMENT] 移动力。{3_ExtraEffect}"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_EXTRAEFFECTS", 											"{1_Class}：{2_ExtraEffect}"),

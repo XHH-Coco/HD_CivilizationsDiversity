@@ -289,6 +289,6 @@ insert or ignore into ModifierArguments (ModifierId, Name, Value) values
 insert or replace into GlobalParameters (Name, Value) values
   ('HD_LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MIN', 									10),
   ('HD_LTRAIT_UNITS_OWNED_RESOURCE_LOST_HP_MAX', 									50),
-  ('HD_LTRAIT_UNITS_RECOVER_MOVEMENT', 					 									2),
+  ('HD_LTRAIT_UNITS_RECOVER_MOVEMENT', 					 									1),
   ('HD_UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_BASE', 				10),
   ('HD_UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_ADD_PER_TIME', 10);
