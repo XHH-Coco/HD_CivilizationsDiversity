@@ -194,6 +194,15 @@ update Units set
 	PrereqTech = NULL
 where UnitType = 'UNIT_GEDEMO_ROZWI';
 
+-- 津巴布韦探路者可用资源
+insert or ignore into HD_ZimbabwePathfinderResources (ResourceType) select
+	ResourceType
+from Improvement_ValidResources where ImprovementType = 'IMPROVEMENT_PASTURE';
+
+insert or ignore into HD_ZimbabwePathfinderResources (ResourceType) select
+	ResourceType
+from Resources where ResourceType in ('RESOURCE_HD_CS_CARAVAN', 'RESOURCE_HD_CS_CANOPIED_CART', 'RESOURCE_HD_CS_DESTRIER');
+
 -- Ability
 insert or ignore into Types (Type, Kind) values
 	('ABILITY_HD_LTRAIT_UNITS',									'KIND_ABILITY'),
@@ -253,7 +262,6 @@ insert or ignore into UnitAbilityModifiers (UnitAbilityType, ModifierId) values
 	('ABILITY_HD_ROZWI',												'HD_ROZWI_SIGHT_THROUGH_FEATURES'),
 	('ABILITY_HD_ROZWI_PROPERTY',								'HD_ROZWI_PROPERTY'),
 	('ABILITY_HD_ZIMBABWE_PATHFINDER_MOVEMENT',	'HD_ZIMBABWE_PATHFINDER_MOVEMENT'),
-	('ABILITY_HD_ZIMBABWE_PATHFINDER_CHARGE',		'HD_ZIMBABWE_PATHFINDER_CHARGE'),
 	('ABILITY_HD_ZIMBABWE_PATHFINDER_PROPERTY',	'HD_ZIMBABWE_PATHFINDER_PROPERTY');
 
 insert or ignore into Modifiers (ModifierId, ModifierType, SubjectRequirementSetId, Permanent) values
@@ -265,7 +273,6 @@ insert or ignore into Modifiers (ModifierId, ModifierType, SubjectRequirementSet
 	('HD_ROZWI_SIGHT_THROUGH_FEATURES',					'MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES',		NULL,		0),
 	('HD_ROZWI_PROPERTY',												'MODIFIER_UNIT_ADJUST_PROPERTY',											NULL,		0),
 	('HD_ZIMBABWE_PATHFINDER_MOVEMENT',					'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT',								NULL,		0),
-	('HD_ZIMBABWE_PATHFINDER_CHARGE',						'MODIFIER_UNIT_ADJUST_BUILDER_CHARGES',								NULL,		0),
 	('HD_ZIMBABWE_PATHFINDER_PROPERTY',					'MODIFIER_UNIT_ADJUST_PROPERTY',											NULL,		0);
 
 insert or ignore into ModifierArguments (ModifierId, Name, Value) values
@@ -281,7 +288,6 @@ insert or ignore into ModifierArguments (ModifierId, Name, Value) values
 	('HD_ROZWI_PROPERTY',												'Key',				'HD_UNIT_GEDEMO_ROZWI'),
 	('HD_ROZWI_PROPERTY',												'Amount',			1),
 	('HD_ZIMBABWE_PATHFINDER_MOVEMENT',					'Amount',			2),
-	('HD_ZIMBABWE_PATHFINDER_CHARGE',						'Amount',			1),
 	('HD_ZIMBABWE_PATHFINDER_PROPERTY',					'Key',				'HD_UNIT_ZIMBABWE_PATHFINDER'),
 	('HD_ZIMBABWE_PATHFINDER_PROPERTY',					'Amount',			1);
 
@@ -292,3 +298,24 @@ insert or replace into GlobalParameters (Name, Value) values
   ('HD_LTRAIT_UNITS_RECOVER_MOVEMENT', 					 									1),
   ('HD_UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_BASE', 				10),
   ('HD_UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_ADD_PER_TIME', 10);
+
+-- 津巴布韦探路者消耗加成/奢侈资源
+insert or ignore into Types (Type, Kind) select
+	'ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' || a.ResourceType, 'KIND_ABILITY'
+from HD_ZimbabwePathfinderResources a inner join Resources b on a.ResourceType = b.ResourceType
+	where b.ResourceClassType in ('RESOURCECLASS_BONUS', 'RESOURCECLASS_LUXURY');
+
+insert or ignore into TypeTags (Type, Tag) select
+	'ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' || a.ResourceType, 'CLASS_HD_ZIMBABWE_PATHFINDER'
+from HD_ZimbabwePathfinderResources a inner join Resources b on a.ResourceType = b.ResourceType
+	where b.ResourceClassType in ('RESOURCECLASS_BONUS', 'RESOURCECLASS_LUXURY');
+
+insert or ignore into UnitAbilities (UnitAbilityType, Inactive) select
+	'ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' || a.ResourceType, 1
+from HD_ZimbabwePathfinderResources a inner join Resources b on a.ResourceType = b.ResourceType
+	where b.ResourceClassType in ('RESOURCECLASS_BONUS', 'RESOURCECLASS_LUXURY');
+
+insert or ignore into UnitAbilityModifiers (UnitAbilityType, ModifierId) select
+	'ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' || a.ResourceType, 'HD_LOSE_'  || a.ResourceType
+from HD_ZimbabwePathfinderResources a inner join Resources b on a.ResourceType = b.ResourceType
+	where b.ResourceClassType in ('RESOURCECLASS_BONUS', 'RESOURCECLASS_LUXURY');

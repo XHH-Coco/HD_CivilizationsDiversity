@@ -5,7 +5,7 @@ insert or replace into LocalizedText (Language, Tag, Text) values
 	("zh_Hans_CN", "LOC_TRAIT_LEADER_GEDEMO_MUTOTA_LTRAIT_NAME", 										"穆塔帕崛起"),
 	("zh_Hans_CN", "LOC_TRAIT_LEADER_GEDEMO_MUTOTA_LTRAIT_DESCRIPTION", 						"军事单位和平民单位可以消耗所在单元格的资源，回复1点 [ICON_MOVEMENT] 移动力，且会根据资源的用途获得额外收益。"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_DESCRIPTION", 											"可以消耗所在单元格的资源，回复2点 [ICON_MOVEMENT] 移动力，且会根据资源的用途获得额外收益。"),
-	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_TOOLTIP", 													"消耗 {1_Icon} {2_ResouceName}[NEWLINE][NEWLINE][ICON_BULLET]回复2点 [ICON_MOVEMENT] 移动力。{3_ExtraEffect}"),
+	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_TOOLTIP", 													"消耗 {1_Icon} {2_ResouceName}[NEWLINE][NEWLINE][ICON_BULLET]回复1点 [ICON_MOVEMENT] 移动力。{3_ExtraEffect}"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_EXTRAEFFECTS", 											"{1_Class}：{2_ExtraEffect}"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_LTRAIT_UNITS_WARNING", 													"[COLOR:Red]掠夺有主之地的资源恐怕会招致当地居民的报复……[ENDCOLOR]"),
 
@@ -19,14 +19,13 @@ insert or replace into LocalizedText (Language, Tag, Text) values
 	("zh_Hans_CN", "LOC_ABILITY_HD_ROZWI_VIEWTEXT", 																"一群 {1_Icon} {2_ResouceName}被赶到了{3_City}附近"),
 
 	("zh_Hans_CN", "LOC_UNIT_ZIMBABWE_PATHFINDER_NAME", 														"津巴布韦探路者"),
-	("zh_Hans_CN", "LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION", 											"津巴布韦特色平民单位。需要配备运载资源才能够移动。可以建立城市。建立城市后配备的运载资源会在城市周围适合的单元格上生成。若在奢侈资源上建立城市，建立后+1 [ICON_CHARGES] 建造次数，可以建造津巴布韦石城。"),
-	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_MOVEMENT_DESCRIPTION", 			"配备了运载资源，+2 [ICON_MOVEMENT] 移动力。"),
+	("zh_Hans_CN", "LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION", 											"津巴布韦特色平民单位。拥有1 [ICON_CHARGES] 建造次数，可以建造津巴布韦石城，也可以消耗建造次数建立城市。需要配备牧场资源才能够移动。[ICON_CHARGES] 建造次数耗尽后回收配备的资源；建立城市后周围适合的单元格上会额外生成一处配备的资源；若建立的城市一环内有奢侈资源，则+1 [ICON_CHARGES] 建造次数。"),
+	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_MOVEMENT_DESCRIPTION", 			"配备资源后+2 [ICON_MOVEMENT] 移动力。"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_CHARGE_DESCRIPTION", 				"在奢侈资源上建立了城市，+1 [ICON_CHARGES] 建造次数。"),
-	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_RESOURCE_TOOLTIP", 		"配备运载资源"),
-	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_RESOURCE_DISABLED", 		"[COLOR:Red]无可用运载资源或数量不足。[ENDCOLOR]"),
+	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_RESOURCE_TOOLTIP", 		"配备资源"),
+	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_RESOURCE_DISABLED", 		"[COLOR:Red]无可用资源或数量不足。[ENDCOLOR]"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_SELECT_RESOURCE_DISABLED", 	"[COLOR:Red]资源数量不足。至少需要{1_Amount}份 {2_Icon} {3_ResouceName}。[ENDCOLOR]"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_FOUND_CITY_TOOLTIP", 				"建立城市"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_FOUND_CITY_DISABLED", 				"[COLOR:Red]该单元格无法建立城市。[ENDCOLOR]"),
-	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_RETURN_RESOURCE_VIEWTEXT", 	"配备的 {1_Icon} {2_ResouceName}被返还到了国库"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_GENERATE_RESOURCE_VIEWTEXT", "配备的 {1_Icon} {2_ResouceName}被放养在{3_City}附近"),
 	("zh_Hans_CN", "LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_LOST_RESOURCE_VIEWTEXT", 		"[COLOR:Red]配备的 {1_Icon} {2_ResouceName}走失了……[ENDCOLOR]");

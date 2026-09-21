@@ -308,13 +308,18 @@ function ZimbabwePathfinderSelectResource(playerId, param)
   if not unit then return; end
 
   -- 减少资源
-  local requiredAmount = 1;
   if resourceInfo.ResourceClassType == 'RESOURCECLASS_STRATEGIC' then
+    local requiredAmount = 0;
     local times = player:GetProperty(UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_PLAYER_TAG .. resourceInfo.ResourceType) or 0;
     requiredAmount = UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_BASE + UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_ADD_PER_TIME * times;
     player:SetProperty(UNIT_ZIMBABWE_PATHFINDER_STRATEGIC_RESOURCE_PLAYER_TAG .. resourceInfo.ResourceType, times + 1);
+    player:GetResources():ChangeResourceAmount(resourceInfo.Index, -requiredAmount);
+  else
+    local unitAbility = unit:GetAbility();
+    if unitAbility:GetAbilityCount('ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' .. resourceInfo.ResourceType) == 0 then
+      unitAbility:ChangeAbilityCount('ABILITY_HD_ZIMBABWE_PATHFINDER_EQUIP_' .. resourceInfo.ResourceType, 1);
+    end
   end
-  player:GetResources():ChangeResourceAmount(resourceInfo.Index, -requiredAmount);
 
   -- 记录资源
   unit:SetProperty(UNIT_ZIMBABWE_PATHFINDER_RESOURCE_TAG, param.ResourceId);
@@ -350,62 +355,43 @@ function ZimbabwePathfinderFoundCity(playerId, unitId)
   if canFound then
     unit:SetProperty(UNIT_ZIMBABWE_PATHFINDER_FOUND_CITY_TAG, 1);
 
-    -- 归还资源
+    -- 印资源
     local resourceId = unit:GetProperty(UNIT_ZIMBABWE_PATHFINDER_RESOURCE_TAG);
     local resourceInfo = GameInfo.Resources[resourceId];
     local targetPlot;
-    if resourceInfo then
-      -- 虚拟资源
-      if resourceInfo.Frequency <= 0 and resourceInfo.SeaFrequency <= 0 and resourceInfo.ResourceClassType ~= 'RESOURCECLASS_STRATEGIC' then
-        player:GetResources():ChangeResourceAmount(resourceInfo.Index, 1);
-        Game.AddWorldViewText({
-          MessageType = 0,
-          MessageText = Locale.Lookup('LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_RETURN_RESOURCE_VIEWTEXT', '[ICON_' .. resourceInfo.ResourceType .. '] ', resourceInfo.Name),
-          PlotX = unit:GetX(),
-          PlotY = unit:GetY(),
-          Visibility = RevealedState.VISIBLE,
-          TargetID = playerId
-        });
-      else
-        -- 地图资源
-        local neighborPlots = Map.GetNeighborPlots(unit:GetX(), unit:GetY(), 3);
-        local validPlots = {};
-        for _, plot in ipairs(neighborPlots) do
-          if plot:GetImprovementType() == -1
-            and plot:GetDistrictType() == -1
-            and not plot:IsWater()
-            and not plot:IsNaturalWonder()
-            and not plot:IsMountain()
-            and (plot:GetOwner() == -1 or plot:GetOwner() == playerId)
-          then
-            if ResourceBuilder.CanHaveResource(plot, resourceInfo.Index) then
-              table.insert(validPlots, plot);
-            end
+    if resourceInfo and (resourceInfo.Frequency > 0 or resourceInfo.SeaFrequency > 0)  then
+      -- 地图资源
+      local neighborPlots = Map.GetNeighborPlots(unit:GetX(), unit:GetY(), 3);
+      local validPlots = {};
+      for _, plot in ipairs(neighborPlots) do
+        if plot:GetImprovementType() == -1
+          and plot:GetResourceType() == -1
+          and plot:GetDistrictType() == -1
+          and not plot:IsWater()
+          and not plot:IsNaturalWonder()
+          and not plot:IsMountain()
+          and (plot:GetOwner() == -1 or plot:GetOwner() == playerId)
+        then
+          if ResourceBuilder.CanHaveResource(plot, resourceInfo.Index) then
+            table.insert(validPlots, plot);
           end
         end
+      end
 
-        if #validPlots > 0 then
-          -- 生成资源
-          local randomIndex = Game.GetRandNum(#validPlots, "Random random plot for " .. playerId) + 1;
-          targetPlot = validPlots[randomIndex];
-          Utils.GenerateResource(targetPlot, resourceInfo.Index);
-        else
-          -- 没有合法的生成单元格
-          Game.AddWorldViewText({
-            MessageType = 0,
-            MessageText = Locale.Lookup('LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_LOST_RESOURCE_VIEWTEXT', '[ICON_' .. resourceInfo.ResourceType .. '] ', resourceInfo.Name),
-            PlotX = unit:GetX(),
-            PlotY = unit:GetY(),
-            Visibility = RevealedState.VISIBLE,
-            TargetID = playerId
-          });
-        end
+      if #validPlots > 0 then
+        -- 生成资源
+        local randomIndex = Game.GetRandNum(#validPlots, "Random random plot for " .. playerId) + 1;
+        targetPlot = validPlots[randomIndex];
+        Utils.GenerateResource(targetPlot, resourceInfo.Index);
       end
     end
 
     -- 建立城市
     local newCity = player:GetCities():Create(unit:GetX(), unit:GetY());
-    if targetPlot and resourceInfo and newCity then
+    if not newCity then return; end
+
+    -- 显示印资源信息
+    if targetPlot then
       Game.AddWorldViewText({
         MessageType = 0,
         MessageText = Locale.Lookup('LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_GENERATE_RESOURCE_VIEWTEXT', '[ICON_' .. resourceInfo.ResourceType .. '] ', resourceInfo.Name, newCity:GetName()),
@@ -414,27 +400,41 @@ function ZimbabwePathfinderFoundCity(playerId, unitId)
         Visibility = RevealedState.VISIBLE,
         TargetID = playerId
       });
+    elseif resourceInfo.ResourceClassType == 'RESOURCECLASS_STRATEGIC' then
+      -- 没有合法的生成单元格
+      Game.AddWorldViewText({
+        MessageType = 0,
+        MessageText = Locale.Lookup('LOC_ABILITY_HD_ZIMBABWE_PATHFINDER_LOST_RESOURCE_VIEWTEXT', '[ICON_' .. resourceInfo.ResourceType .. '] ', resourceInfo.Name),
+        PlotX = unit:GetX(),
+        PlotY = unit:GetY(),
+        Visibility = RevealedState.VISIBLE,
+        TargetID = playerId
+      });
     end
 
-    
-    local unitPlotResourceId = unitPlot:GetResourceType();
-    local unitPlotResourceInfo = GameInfo.Resources[unitPlotResourceId];
-    if unitPlotResourceInfo and unitPlotResourceInfo.ResourceClassType == 'RESOURCECLASS_LUXURY' then
+    -- 判断城市是否相邻或位于奢侈资源
+    local hasOrAdjacentToLuxury = false;
+    local neighborPlots = Map.GetNeighborPlots(unit:GetX(), unit:GetY(), 1);
+    for _, unitPlot in ipairs(neighborPlots) do
+      local unitPlotResourceId = unitPlot:GetResourceType();
+      local unitPlotResourceInfo = GameInfo.Resources[unitPlotResourceId];
+      if unitPlotResourceInfo and unitPlotResourceInfo.ResourceClassType == 'RESOURCECLASS_LUXURY' then
+        hasOrAdjacentToLuxury = true;
+        break;
+      end
+    end
+
+    if hasOrAdjacentToLuxury then
       -- 激活能力
       local unitAbility = unit:GetAbility();
       if unitAbility:GetAbilityCount('ABILITY_HD_ZIMBABWE_PATHFINDER_CHARGE') == 0 then
         unitAbility:ChangeAbilityCount('ABILITY_HD_ZIMBABWE_PATHFINDER_CHARGE', 1);
       end
-
-      -- 改名
-      local unitInfo = GameInfo.Units[unit:GetTypeHash()];
-      if unitInfo then
-        unit:GetExperience():SetVeteranName(Locale.Lookup(unitInfo.Name));
-      end
     else
       -- 删除单位
       player:GetUnits():Destroy(unit);
     end
+
   end
 end
 GameEvents.HD_ZimbabwePathfinderFoundCity.Add(ZimbabwePathfinderFoundCity);

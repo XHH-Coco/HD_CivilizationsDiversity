@@ -32,8 +32,8 @@ insert or ignore into TypeTags (Type, Tag) values
 
 insert or ignore into Units
   (UnitType, Name, Description, TraitType, PrereqTech, MandatoryObsoleteTech,
-  BaseSightRange, BaseMoves, Combat, RangedCombat, Range, Cost, Maintenance, ZoneOfControl, PurchaseYield, CostProgressionModel, CostProgressionParam1, Domain,
+  BaseSightRange, BaseMoves, Combat, RangedCombat, Range, BuildCharges, Cost, Maintenance, ZoneOfControl, PurchaseYield, CostProgressionModel, CostProgressionParam1, Domain,
   FormationClass, PromotionClass, PseudoYieldType, AdvisorType, StrategicResource)
 values
   ('UNIT_ZIMBABWE_PATHFINDER', 'LOC_UNIT_ZIMBABWE_PATHFINDER_NAME', 'LOC_UNIT_ZIMBABWE_PATHFINDER_DESCRIPTION', 'TRAIT_CIVILIZATION_UNIT_ZIMBABWE_PATHFINDER', NULL, NULL,
-  3, 0, 0, 0, 0, 80, 0, 0, 'YIELD_GOLD', 'COST_PROGRESSION_PREVIOUS_COPIES', 30, 'DOMAIN_LAND', 'FORMATION_CLASS_CIVILIAN', NULL, NULL, 'ADVISOR_GENERIC', NULL);
+  3, 0, 0, 0, 0, 1, 80, 0, 0, 'YIELD_GOLD', 'COST_PROGRESSION_PREVIOUS_COPIES', 30, 'DOMAIN_LAND', 'FORMATION_CLASS_CIVILIAN', NULL, NULL, 'ADVISOR_GENERIC', NULL);
